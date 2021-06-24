@@ -30,7 +30,7 @@ Route::get('/about', function () {
 })->name("about");
 
 Route::get('/friends', function () {
-    return view('friends');
+    return view('organisasi');
 })->name("friends");
 
 Route::get('/photos', function () {

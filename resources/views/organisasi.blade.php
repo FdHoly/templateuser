@@ -132,10 +132,8 @@
                                             <!-- profile picture end -->
 
                                             <div class="posted-author">
-                                                <h6 class="author"><a href="organisasi/kbmti">KBMTI</a></h6>
-                                                <button class="add-frnd">Ikuti</button>
-                                                <br>
-                                                <button class="add-frnd">Gabung Organisasi</button>
+                                                <h6 class="author"><a href="profile.html">Kate Midiltoin</a></h6>
+                                                <button class="add-frnd">add friend</button>
                                             </div>
                                         </div>
                                     </div>
