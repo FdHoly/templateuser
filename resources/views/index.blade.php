@@ -879,7 +879,7 @@
                                 </div>
                                 <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
                                 <div class ="organisasi">
-                                    <h6 class="organisasi__text"><a href="#KBMTI">KBMTI</a> </h6>
+                                    <h6 class="author" style="margin-top: 3px"><a href="#KBMTI">KBMTI</a> </h6>
 
                                     {{-- <span class="post-time"></span> --}}
                                 </div>
