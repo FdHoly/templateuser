@@ -463,10 +463,10 @@
                                     <span></span>
                                     <span></span>
                                     <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
+                                        <ul>                                            
                                             <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
+                                            <li><button>hapus post</button></li>
+                                            <li><button>laporkan</button></li>
                                         </ul>
                                     </div>
                                 </div>
