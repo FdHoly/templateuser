@@ -1549,6 +1549,7 @@ textarea:focus {
 
 .posted-author {
   margin-left: 20px;
+  align-self: center;
 }
 
 .posted-author .post-time {

@@ -609,23 +609,24 @@
                             </div>
                         </div>
                         <!-- share box end -->
-                            <div class="dropdown">
-                                {{-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> --}}
-                                <img src="https://image.flaticon.com/icons/png/512/3126/3126539.png" onclick="myFunction()" class="filter__icon">
-                                <div id="myDropdown" class="dropdown-content">
-                                    <a href="#about">About</a>
-                                    <a href="#base">Base</a>
-                                    <a href="#blog">Blog</a>
-                                    <a href="#contact">Contact</a>
-                                    <a href="#custom">Custom</a>
-                                    <a href="#support">Support</a>
-                                    <a href="#tools">Tools</a>
-                                </div>
+                        <div class="dropdown">
+                            {{-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> --}}
+                            <img src="https://image.flaticon.com/icons/png/512/3126/3126539.png" onclick="myFunction()"
+                                class="filter__icon">
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="#about">About</a>
+                                <a href="#base">Base</a>
+                                <a href="#blog">Blog</a>
+                                <a href="#contact">Contact</a>
+                                <a href="#custom">Custom</a>
+                                <a href="#support">Support</a>
+                                <a href="#tools">Tools</a>
                             </div>
+                        </div>
                         <!-- post status start -->
                         <div class="card">
                             <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
+                            <div class="post-title d-flex">
                                 <!-- profile picture end -->
                                 <div class="profile-thumb">
                                     <a href="#">
@@ -640,7 +641,12 @@
                                     <h6 class="author"><a href="{{ route('profile') }}">merry watson</a></h6>
                                     <span class="post-time">20 min ago</span>
                                 </div>
+                                <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
+                                <div class ="organisasi">
+                                    <h6 class="author" style="margin-top: 3px"><a href="#KBMTI">KBMTI</a> </h6>
 
+                                    {{-- <span class="post-time"></span> --}}
+                                </div>
                                 <div class="post-settings-bar">
                                     <span></span>
                                     <span></span>
@@ -2070,7 +2076,7 @@
 
     <script>
         /* When the user clicks on the button,
-                toggle between hiding and showing the dropdown content */
+                        toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
