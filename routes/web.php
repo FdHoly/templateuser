@@ -36,3 +36,7 @@ Route::get('/friends', function () {
 Route::get('/photos', function () {
     return view('photos');
 })->name("photos");
+
+Route::get('/organisasi/kbmti', function (){
+    return view('proforganisasi');
+});

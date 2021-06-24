@@ -421,6 +421,7 @@
                         </div>
                         <!-- share box end -->
                         <div class="dropdown">
+                            <h6><span>Menampilkan Semua Postingan</span></h6>
                             {{-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> --}}
                             <img src="https://image.flaticon.com/icons/png/512/3126/3126539.png" onclick="myFunction()"
                                 class="filter__icon">
