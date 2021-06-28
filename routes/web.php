@@ -37,6 +37,9 @@ Route::get('/photos', function () {
     return view('photos');
 })->name("photos");
 
-Route::get('/organisasi/kbmti', function (){
+Route::get('/organisasi/kbmti', function () {
     return view('proforganisasi');
 });
+Route::get('/editprofile', function () {
+    return view('editprofile');
+})->name("editprofile");;
