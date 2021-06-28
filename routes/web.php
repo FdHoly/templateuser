@@ -40,3 +40,6 @@ Route::get('/photos', function () {
 Route::get('/organisasi/kbmti', function () {
     return view('proforganisasi');
 });
+Route::get('/editprofile', function () {
+    return view('editprofile');
+})->name("editprofile");;
