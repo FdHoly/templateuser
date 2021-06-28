@@ -1,8 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-    @include('include.head')
-
+@include('include.head')
 
 <body>
 
@@ -233,6 +232,101 @@
                                     </ul>
                                 </div>
                             </div>
+                            <!-- widget single item end -->
+                            <!-- widget single item end -->
+                            {{-- Latest top news deleted --}}
+
+
+                            <!-- widget single item start -->
+                            {{-- <div class="card widget-item">
+                                <h4 class="widget-title">latest top news</h4>
+                                <div class="widget-body">
+                                    <ul class="like-page-list-wrapper">
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-28.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">2 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-31.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">20 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-27.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">30 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-34.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">40 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-32.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">39 min ago</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> --}}
+                            <!-- widget single item end -->
+
                         </aside>
                     </div>
 
@@ -324,7 +418,7 @@
                                     <span class="post-time">20 min ago</span>
                                 </div>
                                 <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
-                                <div class ="organisasi">
+                                <div class="organisasi">
                                     <h6 class="author" style="margin-top: 3px"><a href="#KBMTI">KBMTI</a> </h6>
 
                                     {{-- <span class="post-time"></span> --}}
@@ -337,11 +431,18 @@
                                         <ul>
                                             <li><button>copy link to adda</button></li>
                                             <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
+                                            <li>
+                                                <button data-toggle="modal" data-target="#exampleModal">
+                                                    Launch demo modal
+                                                </button>
+
+
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
                             <!-- post title start -->
                             <div class="post-content">
                                 <p class="post-desc">
@@ -357,6 +458,11 @@
                                     </figure>
                                 </div>
                                 <div class="post-meta">
+                                    {{-- <button class="post-meta-like">
+                                        <i class="bi bi-heart-beat"></i>
+                                        <span>You and 201 people like this</span>
+                                        <strong>201</strong>
+                                    </button> --}}
                                     <ul class="comment-share-meta">
                                         <li>
                                             <button class="post-comment">
@@ -398,6 +504,8 @@
                                             <li><button>copy link to adda</button></li>
                                             <li><button>edit post</button></li>
                                             <li><button>embed adda</button></li>
+
+
                                         </ul>
                                     </div>
                                 </div>
@@ -1212,6 +1320,28 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="exampleModal" tabindex="1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Modal
+                            title</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        ...
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" >Close</button>
+                        <button type="button" style="background-color:aqua; padding:10px" >Save
+                            changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </main>
 
@@ -1753,10 +1883,14 @@
 
     <script>
         /* When the user clicks on the button,
-                        toggle between hiding and showing the dropdown content */
+                                toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
+
+        $('#myModal').on('shown.bs.modal', function() {
+            $('#myInput').trigger('focus')
+        })
 
         function filterFunction() {
             var input, filter, ul, li, a, i;
@@ -1774,6 +1908,7 @@
             }
         }
     </script>
+
 
 </body>
 
