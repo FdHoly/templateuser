@@ -368,13 +368,9 @@
                             {{-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> --}}
                             <img src="https://image.flaticon.com/icons/png/512/3126/3126539.png" onclick="myFunction()" class="filter__icon">
                             <div id="myDropdown" class="dropdown-content">
-                                <a href="#about">About</a>
-                                <a href="#base">Base</a>
-                                <a href="#blog">Blog</a>
-                                <a href="#contact">Contact</a>
-                                <a href="#custom">Custom</a>
-                                <a href="#support">Support</a>
-                                <a href="#tools">Tools</a>
+                                <a href="/">Semua</a>
+                                <a href="/filter=organisasi">Organisasi</a>
+                                <a href="/filter=universitas">Universitas</a>
                             </div>
                         </div>
                         <!-- post status start -->
@@ -392,14 +388,13 @@
                                 <!-- profile picture end -->
 
                                 <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">merry watson</a></h6>
+                                    <h6 class="author">
+                                        <a href="{{ route('profile') }}">merry watson</a>
+                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon"
+                                            alt="">
+                                            <a href="organisasi/kbmti">KBMTI</a>
+                                    </h6>
                                     <span class="post-time">20 min ago</span>
-                                </div>
-                                <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
-                                <div class="organisasi">
-                                    <h6 class="author" style="margin-top: 3px"><a href="#KBMTI">KBMTI</a> </h6>
-
-                                    {{-- <span class="post-time"></span> --}}
                                 </div>
                                 <div class="post-settings-bar">
                                     <span></span>
@@ -410,9 +405,9 @@
                                             <li><button>edit post</button></li>
                                             <li><button>hapus post</button></li>
                                             <li>
-                                                <!-- Button trigger modal -->
-                                                <button type="button" data-toggle="modal" data-target="#exampleModalLong">
-                                                    Laporkan
+
+                                                <button data-toggle="modal" data-target="#exampleModal">
+                                                    Report
                                                 </button>
 
                                             </li>
@@ -1343,8 +1338,11 @@
 
 
                     <div class="modal-footer">
-                        <button type="button" data-dismiss="modal">Batal</button>
-                        <button type="button">Simpan</button>
+
+                        <button type="button">Close</button>
+                        <button type="button" style="background-color:aqua; padding:10px">Save
+                            changes</button>
+
                     </div>
                 </div>
             </div>
@@ -1501,7 +1499,7 @@
 
     <script>
         /* When the user clicks on the button,
-                                toggle between hiding and showing the dropdown content */
+                                    toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
