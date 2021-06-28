@@ -30,9 +30,13 @@ Route::get('/about', function () {
 })->name("about");
 
 Route::get('/friends', function () {
-    return view('friends');
+    return view('organisasi');
 })->name("friends");
 
 Route::get('/photos', function () {
     return view('photos');
 })->name("photos");
+
+Route::get('/organisasi/kbmti', function (){
+    return view('proforganisasi');
+});

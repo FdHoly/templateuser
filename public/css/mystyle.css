@@ -82,6 +82,19 @@
   margin-left: 20px;
 }
 
+.dropdown > h6 {
+  width: 100%;
+  text-align: center; 
+  border-bottom: 1px solid #DC4734; 
+  line-height: 0.1em;
+  margin: 10px 0 20px; 
+  margin-right: 10px;
+}
+
+.dropdown > h6 span {
+  background: #f1f1f1; 
+  padding:0 10px; 
+}
 .icon {
   margin-left: 10px;
   margin-top: 3px;
