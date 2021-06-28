@@ -34,13 +34,97 @@
                         
                        <div class="col-lg-2 col-md-3 d-none d-md-block">
                             <div class="profile-edit-panel">
-                                <button class="edit-btn">edit profile</button>
+                                <a href="{{ route('editprofile')}}"><button class="edit-btn">edit profile</button></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 order-2 order-lg-1">
+                        <aside class="widget-area profile-sidebar">
+                            <!-- widget single item start -->
+                            <div class="card widget-item">
+                                <h4 class="widget-title">kate palson</h4>
+                                <div class="widget-body">
+                                    <div class="about-author">
+                                        <p>I Don’t know how? But i believe that it is possible one day if i stay with my dream all time</p>
+                                        <ul class="author-into-list">
+                                            <li><a href="#"><i class="bi bi-office-bag"></i>Graphic Designer</a></li>
+                                            <li><a href="#"><i class="bi bi-home"></i>Melbourne, Australia</a></li>
+                                            <li><a href="#"><i class="bi bi-location-pointer"></i>Pulshar, Melbourne</a></li>
+                                            <li><a href="#"><i class="bi bi-heart-beat"></i>Travel, Swimming</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                          
+
+                            <!-- widget single item start -->
+                            
+                            <!-- widget single item end -->
+                        </aside>
+                    </div>
+
+                    <div class="col-lg-9 order-1 order-lg-2">
+                        <!-- post status start -->
+                        <div class="card">
+                            <!-- post title start -->
+                            
+                            <!-- post title start -->
+                            <form class="signup-inner--form">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <input type="email" class="single-field" placeholder="Username">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="email" class="single-field" placeholder="Description">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="password" class="single-field" placeholder="Password">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="nice-select" name="sortby">
+                                            <option value="trending">Gender</option>
+                                            <option value="sales">Male</option>
+                                            <option value="sales">Female</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <select class="nice-select" name="sortby">
+                                            <option value="trending">Age</option>
+                                            <option value="sales">18+</option>
+                                            <option value="sales">18-</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <select class="nice-select" name="sortby">
+                                            <option value="trending">Country</option>
+                                            <option value="sales">Bangladesh</option>
+                                            <option value="sales">Noakhali</option>
+                                            <option value="sales">Australia</option>
+                                            <option value="sales">China</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12">
+                                        <button class="submit-btn">Save Changes</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- post status end -->
+
+                        
+                        <!-- post status end -->
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+
+    </main>
 
     <!-- Scroll to top start -->
     <div class="scroll-top not-visible">
