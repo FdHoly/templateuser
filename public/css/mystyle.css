@@ -102,3 +102,13 @@
   height: 15px;
   /* align-self: center;/ */
 }
+
+.organisasi__foto {
+  background-color: #fff;
+    z-index: 2;
+    box-shadow: 0px 1px 15px 0px rgb(51 51 51 / 20%);
+}
+
+.organisasi__sidebar {
+
+}

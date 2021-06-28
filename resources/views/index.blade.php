@@ -1,44 +1,8 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Adda - Social Network HTML Template</title>
-    <meta name="robots" content="noindex, follow" />
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Favicon -->
-    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 
-    <!-- CSS
- ============================================ -->
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900" rel="stylesheet">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
-    <!-- Icon Font CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/bicon.min.css">
-    <!-- Flat Icon CSS -->
-    <link rel="stylesheet" href="assets/css/vendor/flaticon.css">
-    <!-- audio & video player CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/plyr.css">
-    <!-- Slick CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/slick.min.css">
-    <!-- nice-select CSS -->
-    <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
-    <!-- perfect scrollbar css -->
-    <link rel="stylesheet" href="assets/css/plugins/perfect-scrollbar.css">
-    <!-- light gallery css -->
-    <link rel="stylesheet" href="assets/css/plugins/lightgallery.min.css">
-    <!-- Main Style CSS -->
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <link rel="stylesheet" href="css/mystyle.css">
-
-</head>
 @include('include.head')
-
 
 <body>
 
@@ -253,6 +217,101 @@
                                     </ul>
                                 </div>
                             </div>
+                            <!-- widget single item end -->
+                            <!-- widget single item end -->
+                            {{-- Latest top news deleted --}}
+
+
+                            <!-- widget single item start -->
+                            {{-- <div class="card widget-item">
+                                <h4 class="widget-title">latest top news</h4>
+                                <div class="widget-body">
+                                    <ul class="like-page-list-wrapper">
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-28.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">2 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-31.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">20 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-27.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">30 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-34.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">40 min ago</p>
+                                            </div>
+                                        </li>
+                                        <li class="unorder-list">
+                                            <!-- profile picture end -->
+                                            <div class="profile-thumb">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small">
+                                                        <img src="assets/images/profile/profile-small-32.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                            <!-- profile picture end -->
+
+                                            <div class="unorder-list-info">
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <p class="list-subtitle">39 min ago</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> --}}
+                            <!-- widget single item end -->
+
                         </aside>
                     </div>
 
@@ -355,11 +414,13 @@
                                                 <button type="button" data-toggle="modal" data-target="#exampleModalLong">
                                                     Laporkan
                                                 </button>
+
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
+
                             <!-- post title start -->
                             <div class="post-content">
                                 <p class="post-desc">
@@ -375,6 +436,11 @@
                                     </figure>
                                 </div>
                                 <div class="post-meta">
+                                    {{-- <button class="post-meta-like">
+                                        <i class="bi bi-heart-beat"></i>
+                                        <span>You and 201 people like this</span>
+                                        <strong>201</strong>
+                                    </button> --}}
                                     <ul class="comment-share-meta">
                                         <li>
                                             <button class="post-comment">
@@ -416,6 +482,8 @@
                                             <li><button>copy link to adda</button></li>
                                             <li><button>edit post</button></li>
                                             <li><button>embed adda</button></li>
+
+
                                         </ul>
                                     </div>
                                 </div>
@@ -1214,17 +1282,20 @@
                 </div>
             </div>
         </div>
+
         <!-- Modal -->
         <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLongTitle">Laporkan Post</h5>
+
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
+
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
@@ -1268,6 +1339,7 @@
                             </label>
                         </div>
                     </div>
+
 
                     <div class="modal-footer">
                         <button type="button" data-dismiss="modal">Batal</button>
@@ -1810,10 +1882,14 @@
 
     <script>
         /* When the user clicks on the button,
-                        toggle between hiding and showing the dropdown content */
+                                toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
+
+        $('#myModal').on('shown.bs.modal', function() {
+            $('#myInput').trigger('focus')
+        })
 
         function filterFunction() {
             var input, filter, ul, li, a, i;
@@ -1835,6 +1911,7 @@
             $('#myInput').trigger('focus')
         })
     </script>
+
 
 </body>
 
