@@ -167,7 +167,7 @@
                                 </div>
                             </div>
                             <div class="card widget-item">
-                                <h4 class="widget-title">Friend in group</h4>
+                                <h4 class="widget-title">Teman dalam Grup</h4>
                                 <div class="widget-body">
                                     <ul class="like-page-list-wrapper">
                                         <li class="unorder-list">
@@ -905,7 +905,7 @@
                         <aside class="widget-area">
                             <!-- widget single item start -->
                             <div class="card widget-item">
-                                <h4 class="widget-title">Latest Announcement</h4>
+                                <h4 class="widget-title">Pengumuman Terbaru</h4>
                                 <div class="widget-body">
                                     <ul class="like-page-list-wrapper">
                                         <li class="unorder-list">
@@ -1000,7 +1000,7 @@
 
                             <!-- widget single item start -->
                             <div class="card widget-item">
-                                <h4 class="widget-title">Latest Event</h4>
+                                <h4 class="widget-title">Acara Terbaru</h4>
                                 <div class="widget-body">
                                     <ul class="like-page-list-wrapper">
                                         <li class="unorder-list">
@@ -1095,7 +1095,7 @@
 
                             <!-- widget single item start -->
                             <div class="card widget-item">
-                                <h4 class="widget-title">Meeting Invitation</h4>
+                                <h4 class="widget-title">Undangan Rapat</h4>
                                 <div class="widget-body">
                                     <ul class="like-page-list-wrapper">
                                         <li class="unorder-list">
@@ -1223,35 +1223,35 @@
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                             <p><b>Gambar Melanggar Kebijakan</b><br>
-                            Konten ini mengandung gambar yang melanggar kebijakan</p>
+                            Konten ini mengandung gambar yang melanggar kebijakan</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                             <p><b>Informasi Palsu</b><br>
-                            Mengandung informasi yang tidak terbukti kebenarannya</p>
+                            Mengandung informasi yang tidak terbukti kebenarannya</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                             <p><b>Konten Dewasa</b><br>
-                            Mengandung seksual eksplisit, kekerasan, serta hal lain yang tidak pantas</p>
+                            Mengandung seksual eksplisit, kekerasan, serta hal lain yang tidak pantas</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                             <p><b>Kredensial Tidak Pantas</b><br>
-                            Kredensial penulis menyinggung atau meniru identitas pihak lain</p>
+                            Kredensial penulis menyinggung atau meniru identitas pihak lain</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 <p><b>Pelecehan</b><br>
-                                Meremehkan atau memicu permusuhan dengan individu atau kelompok</p>
+                                Meremehkan atau memicu permusuhan dengan individu atau kelompok</p><br>
                             </label>
                         </div>
                         <div class="form-check">
