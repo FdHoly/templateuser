@@ -390,9 +390,8 @@
                                 <div class="posted-author">
                                     <h6 class="author">
                                         <a href="{{ route('profile') }}">merry watson</a>
-                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon"
-                                            alt="">
-                                            <a href="organisasi/kbmti">KBMTI</a>
+                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
+                                        <a href="organisasi/kbmti">KBMTI</a>
                                     </h6>
                                     <span class="post-time">20 min ago</span>
                                 </div>
@@ -405,9 +404,8 @@
                                             <li><button>edit post</button></li>
                                             <li><button>hapus post</button></li>
                                             <li>
-
-                                                <button data-toggle="modal" data-target="#exampleModal">
-                                                    Report
+                                                <button type="button" data-toggle="modal" data-target="#exampleModalLong">
+                                                    Laporkan
                                                 </button>
 
                                             </li>
@@ -1284,47 +1282,45 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Laporkan Post</h5>
-
+                        <h5 class="modal-title" id="exampleModalLongTitle">Laporkan Jawaban</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 <p><b>Gambar Melanggar Kebijakan</b><br>
-                                    Konten ini mengandung gambar yang melanggar kebijakan</p><br>
+                                    Konten ini mengandung gambar yang melanggar kebijakan</p>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                                 <p><b>Informasi Palsu</b><br>
-                                    Mengandung informasi yang tidak terbukti kebenarannya</p><br>
+                                    Mengandung informasi yang tidak terbukti kebenarannya</p>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                                 <p><b>Konten Dewasa</b><br>
-                                    Mengandung seksual eksplisit, kekerasan, serta hal lain yang tidak pantas</p><br>
+                                    Mengandung seksual eksplisit, kekerasan, serta hal lain yang tidak pantas</p>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 <p><b>Kredensial Tidak Pantas</b><br>
-                                    Kredensial penulis menyinggung atau meniru identitas pihak lain</p><br>
+                                    Kredensial penulis menyinggung atau meniru identitas pihak lain</p>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 <p><b>Pelecehan</b><br>
-                                    Meremehkan atau memicu permusuhan dengan individu atau kelompok</p><br>
+                                    Meremehkan atau memicu permusuhan dengan individu atau kelompok</p>
                             </label>
                         </div>
                         <div class="form-check">
@@ -1336,18 +1332,15 @@
                         </div>
                     </div>
 
-
                     <div class="modal-footer">
-
-                        <button type="button">Close</button>
-                        <button type="button" style="background-color:aqua; padding:10px">Save
-                            changes</button>
-
+                        <button type="button" data-dismiss="modal">Batal</button>
+                        <button type="button">Simpan</button>
                     </div>
                 </div>
             </div>
         </div>
     </main>
+
 
     <!-- Scroll to top start -->
     <div class="scroll-top not-visible">
@@ -1355,7 +1348,7 @@
     </div>
     <!-- Scroll to Top End -->
     {{-- Footer area deleted --}}
-  
+
     <!-- footer area start -->
     <footer class="d-block d-lg-none">
         <div class="footer-area reveal-footer">
@@ -1530,7 +1523,6 @@
             $('#myInput').trigger('focus')
         })
     </script>
-
 
 </body>
 
