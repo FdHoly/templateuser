@@ -104,7 +104,7 @@
                                             <!-- profile picture end -->
 
                                             <div class="posted-author">
-                                                <h6 class="author"><a href="profile.html">KBMTI Filkom</a></h6>
+                                                <h6 class="author"><a href="organisasi/kbmti">KBMTI Filkom</a></h6>
                                                 <button class="add-frnd">Tergabung</button>
                                             </div>
                                         </div>
