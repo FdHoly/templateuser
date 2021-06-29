@@ -429,18 +429,13 @@
                                     </figure>
                                 </div>
                                 <div class="post-meta">
-                                    {{-- <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 201 people like this</span>
-                                        <strong>201</strong>
-                                    </button> --}}
                                     <ul class="comment-share-meta">
                                         <li>
-                                            <button class="post-comment">
+                                            <button class="post-comment" data-toggle="modal" data-target="#exampleModalLong">
                                                 <i class="bi bi-chat-bubble"></i>
                                                 <span>41</span>
-                                                <!-- Button trigger modal -->
                                             </button>
+                                            
                                         </li>
                                         <!-- Button trigger modal -->
                                     </ul>
