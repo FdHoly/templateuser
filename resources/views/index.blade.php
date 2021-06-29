@@ -307,9 +307,7 @@
                         <!-- post title start -->
                         @for ($i = 0; $i < 8; $i++)
                             <div class="card">
-
-
-                                <div class="post-title d-flex">
+                                <div class="post-title d-flex align-items-center">
                                     <!-- profile picture end -->
                                     <div class="profile-thumb">
                                         <a href="#">
@@ -343,7 +341,6 @@
                                                         data-target="#exampleModalLong">
                                                         Laporkan
                                                     </button>
-
                                                 </li>
                                             </ul>
                                         </div>
@@ -383,12 +380,6 @@
                                 </div>
                             </div>
                         @endfor
-
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-
-                        <!-- post status end -->
 
                     </div>
 
@@ -775,7 +766,8 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" data-dismiss="modal">Batal</button>
-                        <button type="button">Simpan</button>
+                        <button type="button" data-toggle="modal"
+                        data-target="#modalAlert" data-dismiss="modal">Simpan</button>
                     </div>
                 </div>
             </div>
@@ -786,12 +778,9 @@
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-
                     <div class="modal-body">
                         <div class="card">
-
-
-                            <div class="post-title d-flex">
+                            <div class="post-title d-flex align-items-center">
                                 <!-- profile picture end -->
                                 <div class="profile-thumb">
                                     <a href="#">
@@ -804,7 +793,7 @@
 
                                 <div class="posted-author">
                                     <h6 class="author">
-                                        <a href="{{ route('profile') }}">merry watson</a>
+                                        <a href="{{ route('profile') }}">Merry Watson</a>
                                         <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon"
                                             alt="">
                                         <a href="organisasi/kbmti">KBMTI</a>
@@ -1059,8 +1048,6 @@
                                 </div>
                                 <!-- share content box end -->
                             </div>
-
-
                         </div>
                     </div>
 
@@ -1068,6 +1055,30 @@
                 </div>
             </div>
         </div>
+
+        {{-- Modal Alert Report --}}
+        <div class="modal fade" id="modalAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Status</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Laporan berhasil dikirim
+                        <br>
+                        <span>Alasan : <p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{-- Modal Ends --}}
 
     </main>
 
