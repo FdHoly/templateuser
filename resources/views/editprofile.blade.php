@@ -15,17 +15,30 @@
     <main>
 
         <div class="main-wrapper">
+            
+           <div class="overflowHidden" style="height: 30%">
             <div class="profile-banner-large bg-img" data-bg="assets/images/banner/profile-banner.jpg">
+                
             </div>
+            <input class="fileInput-23-d-3" type="file" tabindex="0" multiple="" accept=".jpg,.jpeg,.png,.gif" aria-label="Change
+                                        Avatar" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; opacity: 0; cursor: pointer;">
+           </div>
             <div class="profile-menu-area bg-white">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-lg-3 col-md-3">
                             <div class="profile-picture-box">
+                                
+                                <span aria-hidden="true"></span>
                                 <figure class="profile-picture">
-                                    <a href="profile.html">
+                                      <label for="image">
+                                        <input class="fileInput-23-d-3" type="file" tabindex="0" multiple="" accept=".jpg,.jpeg,.png,.gif" aria-label="Change
+                                        Avatar" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; opacity: 0; cursor: pointer;">
                                         <img src="assets/images/profile/profile-1.jpg" alt="profile picture">
-                                    </a>
+                                        
+                                     </label>
+                                      
+
                                 </figure>
                             </div>
                         </div>
@@ -82,7 +95,13 @@
                                         <input type="email" class="single-field" placeholder="Description">
                                     </div>
                                     <div class="col-12">
+                                        <input type="password" class="single-field" placeholder="Old Password">
+                                    </div>
+                                    <div class="col-12">
                                         <input type="password" class="single-field" placeholder="Password">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="password" class="single-field" placeholder="Confirm Password">
                                     </div>
                                     <div class="col-md-6">
                                         <select class="nice-select" name="sortby">
@@ -133,7 +152,7 @@
     <!-- Scroll to Top End -->
 
    
-
+    
     <!-- JS
 ============================================ -->
 
