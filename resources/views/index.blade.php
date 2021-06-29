@@ -1056,8 +1056,6 @@
                                             </div>
                                         </li>
                                     </ul>
-                                    <br>
-                                    <a href="Pengumuman">Lihat semua</a>
                                 </div>
                             </div>
                             <!-- widget single item end -->
@@ -1153,8 +1151,6 @@
                                             </div>
                                         </li>
                                     </ul>
-                                    <br>
-                                    <a href="Acara">Lihat semua</a>
                                 </div>
                             </div>
                             <!-- widget single item end -->
@@ -1250,8 +1246,6 @@
                                             </div>
                                         </li>
                                     </ul>
-                                    <br>
-                                    <a href="Rapat">Lihat semua</a>
                                 </div>
                             </div>
                             <!-- widget single item end -->
@@ -1292,42 +1286,42 @@
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 <p><b>Gambar Melanggar Kebijakan</b><br>
-                                    Konten ini mengandung gambar yang melanggar kebijakan</p>
+                                    Konten ini mengandung gambar yang melanggar kebijakan</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                                 <p><b>Informasi Palsu</b><br>
-                                    Mengandung informasi yang tidak terbukti kebenarannya</p>
+                                    Mengandung informasi yang tidak terbukti kebenarannya</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
                             <label class="form-check-label" for="flexRadioDefault2">
                                 <p><b>Konten Dewasa</b><br>
-                                    Mengandung seksual eksplisit, kekerasan, serta hal lain yang tidak pantas</p>
+                                    Mengandung seksual eksplisit, kekerasan, serta hal lain yang tidak pantas</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 <p><b>Kredensial Tidak Pantas</b><br>
-                                    Kredensial penulis menyinggung atau meniru identitas pihak lain</p>
+                                    Kredensial penulis menyinggung atau meniru identitas pihak lain</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 <p><b>Pelecehan</b><br>
-                                    Meremehkan atau memicu permusuhan dengan individu atau kelompok</p>
+                                    Meremehkan atau memicu permusuhan dengan individu atau kelompok</p><br>
                             </label>
                         </div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                             <label class="form-check-label" for="flexRadioDefault1">
                                 <p><b>Spam</b><br>
-                                    Mengandung promosi terselubung terkait tautan, jasa, atau produk</p>
+                                    Mengandung promosi terselubung terkait tautan, jasa, atau produk</p><br>
                             </label>
                         </div>
                     </div>
