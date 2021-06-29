@@ -34,6 +34,7 @@
                                       <label for="image">
                                         <input class="fileInput-23-d-3" type="file" tabindex="0" multiple="" accept=".jpg,.jpeg,.png,.gif" aria-label="Change
                                         Avatar" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; opacity: 0; cursor: pointer;">
+                                        <div class="avatarUploaderIndicator-2G-aIZ"></div>
                                         <img src="assets/images/profile/profile-1.jpg" alt="profile picture">
                                         
                                      </label>
