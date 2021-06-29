@@ -217,101 +217,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <!-- widget single item end -->
-                            <!-- widget single item end -->
-                            {{-- Latest top news deleted --}}
-
-
-                            <!-- widget single item start -->
-                            {{-- <div class="card widget-item">
-                                <h4 class="widget-title">latest top news</h4>
-                                <div class="widget-body">
-                                    <ul class="like-page-list-wrapper">
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-28.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
-                                                <p class="list-subtitle">2 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-31.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
-                                                <p class="list-subtitle">20 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-27.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
-                                                <p class="list-subtitle">30 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-34.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
-                                                <p class="list-subtitle">40 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-32.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
-                                                <p class="list-subtitle">39 min ago</p>
-                                            </div>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div> --}}
-                            <!-- widget single item end -->
-
+                            
                         </aside>
                     </div>
 
@@ -356,6 +262,7 @@
                                                 <button type="button" class="post-share-btn" data-dismiss="modal">cancel</button>
                                                 <button type="button" class="post-share-btn">post</button>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -374,8 +281,11 @@
                             </div>
                         </div>
                         <!-- post status start -->
-                        <div class="card">
                             <!-- post title start -->
+                            @for ($i = 0; $i < 8; $i++)
+                        <div class="card">
+
+                                
                             <div class="post-title d-flex">
                                 <!-- profile picture end -->
                                 <div class="profile-thumb">
@@ -404,102 +314,14 @@
                                             <li><button>edit post</button></li>
                                             <li><button>hapus post</button></li>
                                             <li>
-
-                                                <button data-toggle="modal" data-target="#exampleModalLong">
-                                                    Report
-
+                                                <button type="button" data-toggle="modal" data-target="#exampleModalLong">
+                                                    Laporkan
                                                 </button>
+
                                             </li>
                                         </ul>
                                     </div>
                                 </div>
-                                <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLongTitle">Laporkan Post</h5>
-                        
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body">
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                        <p><b>Gambar Melanggar Kebijakan</b><br>
-                                                            Konten ini mengandung gambar yang melanggar kebijakan</p><br>
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                    <label class="form-check-label" for="flexRadioDefault2">
-                                                        <p><b>Informasi Palsu</b><br>
-                                                            Mengandung informasi yang tidak terbukti kebenarannya</p><br>
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
-                                                    <label class="form-check-label" for="flexRadioDefault2">
-                                                        <p><b>Konten Dewasa</b><br>
-                                                            Mengandung seksual eksplisit, kekerasan, serta hal lain yang tidak pantas</p><br>
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                        <p><b>Kredensial Tidak Pantas</b><br>
-                                                            Kredensial penulis menyinggung atau meniru identitas pihak lain</p><br>
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                        <p><b>Pelecehan</b><br>
-                                                            Meremehkan atau memicu permusuhan dengan individu atau kelompok</p><br>
-                                                    </label>
-                                                </div>
-                                                <div class="form-check">
-                                                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-                                                    <label class="form-check-label" for="flexRadioDefault1">
-                                                        <p><b>Spam</b><br>
-                                                            Mengandung promosi terselubung terkait tautan, jasa, atau produk</p>
-                                                    </label>
-                                                </div>
-                                            </div>
-                        
-                        
-                                            <div class="modal-footer">
-                                                <button type="button" data-dismiss="modal">Close</button>
-                                                <button type="button" style="background-color: blue; padding: 10px; color: white" data-dismiss="modal" data-toggle="modal" data-target="#exampleModal">
-                                                    Kirim Laporan
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog" role="document">
-                                      <div class="modal-content">
-                                        <div class="modal-header">
-                                          <h5 class="modal-title" id="exampleModalLabel">Status</h5>
-                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                            <span aria-hidden="true">&times;</span>
-                                          </button>
-                                        </div>
-                                        <div class="modal-body">
-                                          Laporan berhasil dikirim
-                                          <br>
-                                          <span>Alasan : <p> 
-                                        </div>
-                                        <div class="modal-footer">
-                                          <button type="button"  data-dismiss="modal">Tutup</button>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-
-
                             </div>
 
                             <!-- post title start -->
@@ -519,7 +341,7 @@
                                 <div class="post-meta">
                                     <ul class="comment-share-meta">
                                         <li>
-                                            <button class="post-comment" data-toggle="modal" data-target="#exampleModalLong">
+                                            <button class="post-comment" data-toggle="modal" data-target="#ModalComment">
                                                 <i class="bi bi-chat-bubble"></i>
                                                 <span>41</span>
                                             </button>
@@ -530,518 +352,12 @@
                                 </div>
                             </div>
                         </div>
+                        @endfor
+                        
                         <!-- post status end -->
 
                         <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">Jon Wileyam</a></h6>
-                                    <span class="post-time">15 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc pb-0">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for
-                                </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 206 people like this</span>
-                                        <strong>206</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>07</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-29.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">william henry</a></h6>
-                                    <span class="post-time">35 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="plyr__video-embed plyr-youtube">
-                                    <iframe src="https://www.youtube.com/embed/WeA7edXsU40" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 112 people like this</span>
-                                        <strong>112</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>36</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>08</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-37.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">Kate Palson</a></h6>
-                                    <span class="post-time">35 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="post-thumb-gallery img-gallery">
-                                    <div class="row no-gutters">
-                                        <div class="col-8">
-                                            <figure class="post-thumb">
-                                                <a class="gallery-selector" href="assets/images/post/post-large-2.jpg">
-                                                    <img src="assets/images/post/post-2.jpg" alt="post image">
-                                                </a>
-                                            </figure>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <figure class="post-thumb">
-                                                        <a class="gallery-selector" href="assets/images/post/post-large-3.jpg">
-                                                            <img src="assets/images/post/post-3.jpg" alt="post image">
-                                                        </a>
-                                                    </figure>
-                                                </div>
-                                                <div class="col-12">
-                                                    <figure class="post-thumb">
-                                                        <a class="gallery-selector" href="assets/images/post/post-large-4.jpg">
-                                                            <img src="assets/images/post/post-4.jpg" alt="post image">
-                                                        </a>
-                                                    </figure>
-                                                </div>
-                                                <div class="col-12">
-                                                    <figure class="post-thumb">
-                                                        <a class="gallery-selector" href="assets/images/post/post-large-5.jpg">
-                                                            <img src="assets/images/post/post-5.jpg" alt="post image">
-                                                        </a>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 70 people like this</span>
-                                        <strong>70</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>28</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>12</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-4.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">Robart Faul</a></h6>
-                                    <span class="post-time">40 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc pb-0">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for Many desktop publishing packages and web page
-                                    editors now use Lorem Ipsum as their default model text, and a search for Many
-                                    desktop publishing duskam azer.
-                                </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 250 people like this</span>
-                                        <strong>250</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>80</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>10</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-8.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">Halen Omaro</a></h6>
-                                    <span class="post-time">45 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="plyr__video-embed plyr-video">
-                                    <iframe src="https://www.youtube.com/embed/odUtqDz4lEk" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                                <p class="post-desc post-desc-secondary">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for
-                                </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 160 people like this</span>
-                                        <strong>160</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>42</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>05</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-2.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">Mili Raoulin</a></h6>
-                                    <span class="post-time">50 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="post-thumb-gallery img-gallery">
-                                    <div class="row no-gutters">
-                                        <div class="col-6">
-                                            <figure class="post-thumb">
-                                                <a class="gallery-selector" href="assets/images/post/post-large-6.jpg">
-                                                    <img src="assets/images/post/post-6.jpg" alt="post image">
-                                                </a>
-                                            </figure>
-                                        </div>
-                                        <div class="col-6">
-                                            <figure class="post-thumb">
-                                                <a class="gallery-selector" href="assets/images/post/post-large-7.jpg">
-                                                    <img src="assets/images/post/post-7.jpg" alt="post image">
-                                                </a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 30 people like this</span>
-                                        <strong>30</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>65</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>04</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">Jon Wileyam</a></h6>
-                                    <span class="post-time">15 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc pb-0">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for
-                                </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 320 people like this</span>
-                                        <strong>320</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>07</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
+                        
                         <!-- post status end -->
 
                     </div>
@@ -1355,19 +671,61 @@
         </div>
 
         <!-- Modal -->
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal">Batal</button>
+                        <button type="button">Simpan</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    </main>
+        <!-- Modal Comment-->
+        <div class="modal fade" id="ModalComment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    
+                    <div class="modal-body">
+                        <div class="card">
 
+                                
+                            <div class="post-title d-flex">
+                                <!-- profile picture end -->
+                                <div class="profile-thumb">
+                                    <a href="#">
+                                        <figure class="profile-thumb-middle">
+                                            <img src="assets/images/profile/profile-small-1.jpg" alt="profile picture">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <!-- profile picture end -->
 
-    <!-- Scroll to top start -->
-    <div class="scroll-top not-visible">
-        <i class="bi bi-finger-index"></i>
-    </div>
-    <!-- Scroll to Top End -->
-    {{-- Footer area deleted --}}
+                                <div class="posted-author">
+                                    <h6 class="author">
+                                        <a href="{{ route('profile') }}">merry watson</a>
+                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
+                                        <a href="organisasi/kbmti">KBMTI</a>
+                                    </h6>
+                                    <span class="post-time">20 min ago</span>
+                                </div>
+                                <div class="post-settings-bar">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                    <div class="post-settings arrow-shape">
+                                        <ul>
+                                            <li><button>edit post</button></li>
+                                            <li><button>hapus post</button></li>
+                                            <li>
+                                                <button type="button" data-toggle="modal" data-target="#exampleModalLong">
+                                                    Laporkan
+                                                </button>
 
-    <!-- footer area start -->
-    <footer class="d-block d-lg-none">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <footer class="d-block d-lg-none">
         <div class="footer-area reveal-footer">
             <div class="container">
                 <div class="row">
@@ -1477,6 +835,214 @@
 
         </div>
     </footer>
+
+                            <!-- post title start -->
+                            <div class="post-content">
+                                <p class="post-desc">
+                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
+                                    in their infancy.
+                                </p>
+                                <div class="post-thumb-gallery">
+                                    <figure class="post-thumb img-popup">
+                                        <a href="assets/images/post/post-large-1.jpg">
+                                            <img src="assets/images/post/post-1.jpg" alt="post image">
+                                        </a>
+                                    </figure>
+                                </div>
+                                
+                            </div>
+                            <br>
+                            <h6>Komentar</h6>
+                            <br>
+                            <div class="card">
+                                
+                                <!-- post title start -->
+                                <div class="post-title d-flex align-items-center">
+                                    <div class="profile-thumb">
+                                        <a href="#">
+                                            <figure class="profile-thumb-small">
+                                                <img src="assets/images/profile/profile-small-3.jpg" alt="profile picture">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <!-- profile picture end -->
+                                    <div class="posted-author">
+                                    
+                                    <!-- profile picture end -->
+                                        <h6 class="author"><a href="profile.html">Jon Wileyam</a></h6>
+                                        <span class="post-time">15 min ago</span>
+                                    </div>
+    
+                                   
+                                </div>
+                                <!-- post title start -->
+                                <div class="post-content">
+                                    <p class="post-desc pb-0">
+                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                        default model text, and a search for
+                                    </p>
+                                 
+                                </div>
+                                <br>
+                                <div class="post-title d-flex align-items-center">
+                                    <div class="profile-thumb">
+                                        <a href="#">
+                                            <figure class="profile-thumb-small">
+                                                <img src="assets/images/profile/profile-small-3.jpg" alt="profile picture">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <!-- profile picture end -->
+                                    <div class="posted-author">
+                                    
+                                    <!-- profile picture end -->
+                                        <h6 class="author"><a href="profile.html">Jon Wileyam</a></h6>
+                                        <span class="post-time">15 min ago</span>
+                                    </div>
+    
+                                   
+                                </div>
+                                <!-- post title start -->
+                                <div class="post-content">
+                                    <p class="post-desc pb-0">
+                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                        default model text, and a search for
+                                    </p>
+                                 
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                    </div>
+
+                   
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+
+    <!-- Scroll to top start -->
+    <div class="scroll-top not-visible">
+        <i class="bi bi-finger-index"></i>
+    </div>
+    <!-- Scroll to Top End -->
+    {{-- Footer area deleted --}}
+
+    <!-- footer area start -->
+    {{-- <footer class="d-block d-lg-none">
+        <div class="footer-area reveal-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="mobile-footer-inner d-flex">
+                            <div class="mobile-frnd-search">
+                                <button class="search-toggle-btn"><i class="flaticon-search"></i></button>
+                            </div>
+                            <div class="mob-frnd-search-inner">
+                                <form class="mob-frnd-search-box d-flex">
+                                    <input type="text" placeholder="Search Your Friends" class="mob-frnd-search-field">
+                                </form>
+                            </div>
+                            <div class="card card-small mb-0 active-profile-mob-wrapper">
+                                <div class="active-profiles-mob-wrapper slick-row-10">
+                                    <div class="active-profile-mobile">
+                                        <!-- profile picture end -->
+                                        <div class="single-slide">
+                                            <div class="profile-thumb active profile-active">
+                                                <a href="#">
+                                                    <figure class="profile-thumb-small profile-active">
+                                                        <img src="assets/images/profile/profile-small-1.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- profile picture end -->
+
+                                        <!-- profile picture end -->
+                                        <div class="single-slide">
+                                            <div class="profile-thumb active profile-active">
+                                                <a href="javascript:void(0)">
+                                                    <figure class="profile-thumb-small profile-active">
+                                                        <img src="assets/images/profile/profile-small-8.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- profile picture end -->
+
+                                        <!-- profile picture end -->
+                                        <div class="single-slide">
+                                            <div class="profile-thumb active profile-active">
+                                                <a href="javascript:void(0)">
+                                                    <figure class="profile-thumb-small profile-active">
+                                                        <img src="assets/images/profile/profile-small-2.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- profile picture end -->
+
+                                        <!-- profile picture end -->
+                                        <div class="single-slide">
+                                            <div class="profile-thumb active profile-active">
+                                                <a href="javascript:void(0)">
+                                                    <figure class="profile-thumb-small profile-active">
+                                                        <img src="assets/images/profile/profile-small-3.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- profile picture end -->
+
+                                        <!-- profile picture end -->
+                                        <div class="single-slide">
+                                            <div class="profile-thumb active profile-active">
+                                                <a href="javascript:void(0)">
+                                                    <figure class="profile-thumb-small profile-active">
+                                                        <img src="assets/images/profile/profile-small-4.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- profile picture end -->
+
+                                        <!-- profile picture end -->
+                                        <div class="single-slide">
+                                            <div class="profile-thumb active profile-active">
+                                                <a href="javascript:void(0)">
+                                                    <figure class="profile-thumb-small profile-active">
+                                                        <img src="assets/images/profile/profile-small-5.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- profile picture end -->
+
+                                        <!-- profile picture end -->
+                                        <div class="single-slide">
+                                            <div class="profile-thumb active profile-active">
+                                                <a href="javascript:void(0)">
+                                                    <figure class="profile-thumb-small profile-active">
+                                                        <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
+                                                    </figure>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <!-- profile picture end -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </footer> --}}
     <!-- footer area end -->
 
     <!-- JS
