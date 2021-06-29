@@ -390,9 +390,8 @@
                                 <div class="posted-author">
                                     <h6 class="author">
                                         <a href="{{ route('profile') }}">merry watson</a>
-                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon"
-                                            alt="">
-                                            <a href="organisasi/kbmti">KBMTI</a>
+                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
+                                        <a href="organisasi/kbmti">KBMTI</a>
                                     </h6>
                                     <span class="post-time">20 min ago</span>
                                 </div>
@@ -405,8 +404,10 @@
                                             <li><button>edit post</button></li>
                                             <li><button>hapus post</button></li>
                                             <li>
+
                                                 <button data-toggle="modal" data-target="#exampleModalLong">
                                                     Report
+
                                                 </button>
                                             </li>
                                         </ul>
@@ -516,18 +517,13 @@
                                     </figure>
                                 </div>
                                 <div class="post-meta">
-                                    {{-- <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 201 people like this</span>
-                                        <strong>201</strong>
-                                    </button> --}}
                                     <ul class="comment-share-meta">
                                         <li>
-                                            <button class="post-comment">
+                                            <button class="post-comment" data-toggle="modal" data-target="#exampleModalLong">
                                                 <i class="bi bi-chat-bubble"></i>
                                                 <span>41</span>
-                                                <!-- Button trigger modal -->
                                             </button>
+                                            
                                         </li>
                                         <!-- Button trigger modal -->
                                     </ul>
@@ -1143,8 +1139,6 @@
                                             </div>
                                         </li>
                                     </ul>
-                                    <br>
-                                    <a href="Pengumuman">Lihat semua</a>
                                 </div>
                             </div>
                             <!-- widget single item end -->
@@ -1240,8 +1234,6 @@
                                             </div>
                                         </li>
                                     </ul>
-                                    <br>
-                                    <a href="Acara">Lihat semua</a>
                                 </div>
                             </div>
                             <!-- widget single item end -->
@@ -1337,8 +1329,6 @@
                                             </div>
                                         </li>
                                     </ul>
-                                    <br>
-                                    <a href="Rapat">Lihat semua</a>
                                 </div>
                             </div>
                             <!-- widget single item end -->
@@ -1365,8 +1355,9 @@
         </div>
 
         <!-- Modal -->
-        
+
     </main>
+
 
     <!-- Scroll to top start -->
     <div class="scroll-top not-visible">
@@ -1374,7 +1365,7 @@
     </div>
     <!-- Scroll to Top End -->
     {{-- Footer area deleted --}}
-  
+
     <!-- footer area start -->
     <footer class="d-block d-lg-none">
         <div class="footer-area reveal-footer">
@@ -1549,7 +1540,6 @@
             $('#myInput').trigger('focus')
         })
     </script>
-
 
 </body>
 
