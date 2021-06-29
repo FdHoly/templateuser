@@ -52,7 +52,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-33.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-33.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -64,7 +65,8 @@
                                             </div>
                                             <button class="like-button active">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -72,7 +74,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-30.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-30.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -84,7 +87,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -92,7 +96,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-5.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-5.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -104,7 +109,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -112,7 +118,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-29.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-29.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -124,7 +131,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                     </ul>
@@ -139,7 +147,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-33.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-33.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -151,7 +160,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -159,7 +169,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-30.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-30.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -171,7 +182,8 @@
                                             </div>
                                             <button class="like-button active">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -179,7 +191,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-5.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-5.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -191,7 +204,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -199,7 +213,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-29.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-29.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -211,13 +226,14 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
-                            
+
                         </aside>
                     </div>
 
@@ -238,7 +254,9 @@
                                 <!-- share content box start -->
                                 <div class="share-content-box w-100">
                                     <form class="share-text-box">
-                                        <textarea name="share" class="share-text-field" aria-disabled="true" placeholder="Say Something" data-toggle="modal" data-target="#textbox" id="email"></textarea>
+                                        <textarea name="share" class="share-text-field" aria-disabled="true"
+                                            placeholder="Say Something" data-toggle="modal" data-target="#textbox"
+                                            id="email"></textarea>
                                         <button class="btn-share" type="submit">share</button>
                                     </form>
                                 </div>
@@ -250,16 +268,20 @@
                                         <div class="modal-content">
                                             <div class="modal-header">
                                                 <h5 class="modal-title">Share Your Mood</h5>
-                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
                                             <div class="modal-body custom-scroll">
-                                                <input type="text" class="block w-100 p-2 mb-2 my-judul" placeholder="Judul">
-                                                <textarea name="share" class="share-field-big custom-scroll" placeholder="Say Something"></textarea>
+                                                <input type="text" class="block w-100 p-2 mb-2 my-judul"
+                                                    placeholder="Judul">
+                                                <textarea name="share" class="share-field-big custom-scroll"
+                                                    placeholder="Say Something"></textarea>
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="post-share-btn" data-dismiss="modal">cancel</button>
+                                                <button type="button" class="post-share-btn"
+                                                    data-dismiss="modal">cancel</button>
                                                 <button type="button" class="post-share-btn">post</button>
                                             </div>
 
@@ -273,7 +295,8 @@
                         <div class="dropdown">
                             <h6><span>Menampilkan Semua Postingan</span></h6>
                             {{-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> --}}
-                            <img src="https://image.flaticon.com/icons/png/512/3126/3126539.png" onclick="myFunction()" class="filter__icon">
+                            <img src="https://image.flaticon.com/icons/png/512/3126/3126539.png" onclick="myFunction()"
+                                class="filter__icon">
                             <div id="myDropdown" class="dropdown-content">
                                 <a href="/">Semua</a>
                                 <a href="/filter=organisasi">Organisasi</a>
@@ -281,83 +304,90 @@
                             </div>
                         </div>
                         <!-- post status start -->
-                            <!-- post title start -->
-                            @for ($i = 0; $i < 8; $i++)
-                        <div class="card">
+                        <!-- post title start -->
+                        @for ($i = 0; $i < 8; $i++)
+                            <div class="card">
 
-                                
-                            <div class="post-title d-flex">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-1.jpg" alt="profile picture">
+
+                                <div class="post-title d-flex">
+                                    <!-- profile picture end -->
+                                    <div class="profile-thumb">
+                                        <a href="#">
+                                            <figure class="profile-thumb-middle">
+                                                <img src="assets/images/profile/profile-small-1.jpg"
+                                                    alt="profile picture">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <!-- profile picture end -->
+
+                                    <div class="posted-author">
+                                        <h6 class="author">
+                                            <a href="{{ route('profile') }}">merry watson</a>
+                                            <img src="https://image.flaticon.com/icons/png/512/271/271228.png"
+                                                class="icon" alt="">
+                                            <a href="organisasi/kbmti">KBMTI</a>
+                                        </h6>
+                                        <span class="post-time">20 min ago</span>
+                                    </div>
+                                    <div class="post-settings-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <div class="post-settings arrow-shape">
+                                            <ul>
+                                                <li><button>edit post</button></li>
+                                                <li><button>hapus post</button></li>
+                                                <li>
+                                                    <button type="button" data-toggle="modal"
+                                                        data-target="#exampleModalLong">
+                                                        Laporkan
+                                                    </button>
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- post title start -->
+                                <div class="post-content">
+                                    <h5 style="margin-bottom: 10px">Judul Postingan</h5>
+                                    <p class="post-desc">
+                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                                        their
+                                        default model text, and a search for 'lorem ipsum' will uncover many web sites
+                                        still
+                                        in their infancy.
+                                    </p>
+                                    <div class="post-thumb-gallery">
+                                        <figure class="post-thumb img-popup">
+                                            <a href="assets/images/post/post-large-1.jpg">
+                                                <img src="assets/images/post/post-1.jpg" alt="post image">
+                                            </a>
                                         </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author">
-                                        <a href="{{ route('profile') }}">merry watson</a>
-                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
-                                        <a href="organisasi/kbmti">KBMTI</a>
-                                    </h6>
-                                    <span class="post-time">20 min ago</span>
-                                </div>
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>edit post</button></li>
-                                            <li><button>hapus post</button></li>
+                                    </div>
+                                    <div class="post-meta">
+                                        <ul class="comment-share-meta">
                                             <li>
-                                                <button type="button" data-toggle="modal" data-target="#exampleModalLong">
-                                                    Laporkan
+                                                <button class="post-comment" data-toggle="modal"
+                                                    data-target="#ModalComment">
+                                                    <i class="bi bi-chat-bubble"></i>
+                                                    <span>41</span>
                                                 </button>
 
                                             </li>
+                                            <!-- Button trigger modal -->
                                         </ul>
                                     </div>
                                 </div>
                             </div>
-
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="post-thumb-gallery">
-                                    <figure class="post-thumb img-popup">
-                                        <a href="assets/images/post/post-large-1.jpg">
-                                            <img src="assets/images/post/post-1.jpg" alt="post image">
-                                        </a>
-                                    </figure>
-                                </div>
-                                <div class="post-meta">
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment" data-toggle="modal" data-target="#ModalComment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                            
-                                        </li>
-                                        <!-- Button trigger modal -->
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
                         @endfor
-                        
+
                         <!-- post status end -->
 
                         <!-- post status start -->
-                        
+
                         <!-- post status end -->
 
                     </div>
@@ -374,7 +404,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-9.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -391,7 +422,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-35.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-35.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -408,7 +440,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-15.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-15.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -425,7 +458,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-6.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-6.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -442,7 +476,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-34.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-34.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -469,7 +504,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-9.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -486,7 +522,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-35.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-35.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -503,7 +540,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-15.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-15.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -520,7 +558,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-6.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-6.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -537,7 +576,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-34.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-34.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -564,7 +604,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-9.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -581,7 +622,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-35.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-35.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -598,7 +640,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-15.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-15.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -615,7 +658,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-6.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-6.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -632,7 +676,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-34.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-34.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -671,23 +716,24 @@
         </div>
 
         <!-- Modal -->
-                    <div class="modal-footer">
-                        <button type="button" data-dismiss="modal">Batal</button>
-                        <button type="button">Simpan</button>
-                    </div>
-                </div>
-            </div>
+        <div class="modal-footer">
+            <button type="button" data-dismiss="modal">Batal</button>
+            <button type="button">Simpan</button>
+        </div>
+        </div>
+        </div>
         </div>
 
         <!-- Modal Comment-->
-        <div class="modal fade" id="ModalComment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal fade" id="ModalComment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    
+
                     <div class="modal-body">
                         <div class="card">
 
-                                
+
                             <div class="post-title d-flex">
                                 <!-- profile picture end -->
                                 <div class="profile-thumb">
@@ -702,7 +748,8 @@
                                 <div class="posted-author">
                                     <h6 class="author">
                                         <a href="{{ route('profile') }}">merry watson</a>
-                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon" alt="">
+                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon"
+                                            alt="">
                                         <a href="organisasi/kbmti">KBMTI</a>
                                     </h6>
                                     <span class="post-time">20 min ago</span>
@@ -716,7 +763,8 @@
                                             <li><button>edit post</button></li>
                                             <li><button>hapus post</button></li>
                                             <li>
-                                                <button type="button" data-toggle="modal" data-target="#exampleModalLong">
+                                                <button type="button" data-toggle="modal"
+                                                    data-target="#exampleModalLong">
                                                     Laporkan
                                                 </button>
 
@@ -726,115 +774,131 @@
                                 </div>
                             </div>
                             <footer class="d-block d-lg-none">
-        <div class="footer-area reveal-footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="mobile-footer-inner d-flex">
-                            <div class="mobile-frnd-search">
-                                <button class="search-toggle-btn"><i class="flaticon-search"></i></button>
-                            </div>
-                            <div class="mob-frnd-search-inner">
-                                <form class="mob-frnd-search-box d-flex">
-                                    <input type="text" placeholder="Search Your Friends" class="mob-frnd-search-field">
-                                </form>
-                            </div>
-                            <div class="card card-small mb-0 active-profile-mob-wrapper">
-                                <div class="active-profiles-mob-wrapper slick-row-10">
-                                    <div class="active-profile-mobile">
-                                        <!-- profile picture end -->
-                                        <div class="single-slide">
-                                            <div class="profile-thumb active profile-active">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small profile-active">
-                                                        <img src="assets/images/profile/profile-small-1.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- profile picture end -->
+                                <div class="footer-area reveal-footer">
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <div class="mobile-footer-inner d-flex">
+                                                    <div class="mobile-frnd-search">
+                                                        <button class="search-toggle-btn"><i
+                                                                class="flaticon-search"></i></button>
+                                                    </div>
+                                                    <div class="mob-frnd-search-inner">
+                                                        <form class="mob-frnd-search-box d-flex">
+                                                            <input type="text" placeholder="Search Your Friends"
+                                                                class="mob-frnd-search-field">
+                                                        </form>
+                                                    </div>
+                                                    <div class="card card-small mb-0 active-profile-mob-wrapper">
+                                                        <div class="active-profiles-mob-wrapper slick-row-10">
+                                                            <div class="active-profile-mobile">
+                                                                <!-- profile picture end -->
+                                                                <div class="single-slide">
+                                                                    <div class="profile-thumb active profile-active">
+                                                                        <a href="#">
+                                                                            <figure
+                                                                                class="profile-thumb-small profile-active">
+                                                                                <img src="assets/images/profile/profile-small-1.jpg"
+                                                                                    alt="profile picture">
+                                                                            </figure>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- profile picture end -->
 
-                                        <!-- profile picture end -->
-                                        <div class="single-slide">
-                                            <div class="profile-thumb active profile-active">
-                                                <a href="javascript:void(0)">
-                                                    <figure class="profile-thumb-small profile-active">
-                                                        <img src="assets/images/profile/profile-small-8.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- profile picture end -->
+                                                                <!-- profile picture end -->
+                                                                <div class="single-slide">
+                                                                    <div class="profile-thumb active profile-active">
+                                                                        <a href="javascript:void(0)">
+                                                                            <figure
+                                                                                class="profile-thumb-small profile-active">
+                                                                                <img src="assets/images/profile/profile-small-8.jpg"
+                                                                                    alt="profile picture">
+                                                                            </figure>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- profile picture end -->
 
-                                        <!-- profile picture end -->
-                                        <div class="single-slide">
-                                            <div class="profile-thumb active profile-active">
-                                                <a href="javascript:void(0)">
-                                                    <figure class="profile-thumb-small profile-active">
-                                                        <img src="assets/images/profile/profile-small-2.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- profile picture end -->
+                                                                <!-- profile picture end -->
+                                                                <div class="single-slide">
+                                                                    <div class="profile-thumb active profile-active">
+                                                                        <a href="javascript:void(0)">
+                                                                            <figure
+                                                                                class="profile-thumb-small profile-active">
+                                                                                <img src="assets/images/profile/profile-small-2.jpg"
+                                                                                    alt="profile picture">
+                                                                            </figure>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- profile picture end -->
 
-                                        <!-- profile picture end -->
-                                        <div class="single-slide">
-                                            <div class="profile-thumb active profile-active">
-                                                <a href="javascript:void(0)">
-                                                    <figure class="profile-thumb-small profile-active">
-                                                        <img src="assets/images/profile/profile-small-3.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- profile picture end -->
+                                                                <!-- profile picture end -->
+                                                                <div class="single-slide">
+                                                                    <div class="profile-thumb active profile-active">
+                                                                        <a href="javascript:void(0)">
+                                                                            <figure
+                                                                                class="profile-thumb-small profile-active">
+                                                                                <img src="assets/images/profile/profile-small-3.jpg"
+                                                                                    alt="profile picture">
+                                                                            </figure>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- profile picture end -->
 
-                                        <!-- profile picture end -->
-                                        <div class="single-slide">
-                                            <div class="profile-thumb active profile-active">
-                                                <a href="javascript:void(0)">
-                                                    <figure class="profile-thumb-small profile-active">
-                                                        <img src="assets/images/profile/profile-small-4.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- profile picture end -->
+                                                                <!-- profile picture end -->
+                                                                <div class="single-slide">
+                                                                    <div class="profile-thumb active profile-active">
+                                                                        <a href="javascript:void(0)">
+                                                                            <figure
+                                                                                class="profile-thumb-small profile-active">
+                                                                                <img src="assets/images/profile/profile-small-4.jpg"
+                                                                                    alt="profile picture">
+                                                                            </figure>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- profile picture end -->
 
-                                        <!-- profile picture end -->
-                                        <div class="single-slide">
-                                            <div class="profile-thumb active profile-active">
-                                                <a href="javascript:void(0)">
-                                                    <figure class="profile-thumb-small profile-active">
-                                                        <img src="assets/images/profile/profile-small-5.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                        </div>
-                                        <!-- profile picture end -->
+                                                                <!-- profile picture end -->
+                                                                <div class="single-slide">
+                                                                    <div class="profile-thumb active profile-active">
+                                                                        <a href="javascript:void(0)">
+                                                                            <figure
+                                                                                class="profile-thumb-small profile-active">
+                                                                                <img src="assets/images/profile/profile-small-5.jpg"
+                                                                                    alt="profile picture">
+                                                                            </figure>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- profile picture end -->
 
-                                        <!-- profile picture end -->
-                                        <div class="single-slide">
-                                            <div class="profile-thumb active profile-active">
-                                                <a href="javascript:void(0)">
-                                                    <figure class="profile-thumb-small profile-active">
-                                                        <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
-                                                    </figure>
-                                                </a>
+                                                                <!-- profile picture end -->
+                                                                <div class="single-slide">
+                                                                    <div class="profile-thumb active profile-active">
+                                                                        <a href="javascript:void(0)">
+                                                                            <figure
+                                                                                class="profile-thumb-small profile-active">
+                                                                                <img src="assets/images/profile/profile-small-9.jpg"
+                                                                                    alt="profile picture">
+                                                                            </figure>
+                                                                        </a>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- profile picture end -->
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <!-- profile picture end -->
                                     </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
-        </div>
-    </footer>
+                                </div>
+                            </footer>
 
                             <!-- post title start -->
                             <div class="post-content">
@@ -850,74 +914,129 @@
                                         </a>
                                     </figure>
                                 </div>
-                                
+
                             </div>
                             <br>
                             <h6>Komentar</h6>
                             <br>
                             <div class="card">
-                                
+
                                 <!-- post title start -->
                                 <div class="post-title d-flex align-items-center">
                                     <div class="profile-thumb">
                                         <a href="#">
                                             <figure class="profile-thumb-small">
-                                                <img src="assets/images/profile/profile-small-3.jpg" alt="profile picture">
+                                                <img src="assets/images/profile/profile-small-3.jpg"
+                                                    alt="profile picture">
                                             </figure>
                                         </a>
                                     </div>
                                     <!-- profile picture end -->
                                     <div class="posted-author">
-                                    
-                                    <!-- profile picture end -->
+
+                                        <!-- profile picture end -->
                                         <h6 class="author"><a href="profile.html">Jon Wileyam</a></h6>
                                         <span class="post-time">15 min ago</span>
                                     </div>
-    
-                                   
+
+
                                 </div>
                                 <!-- post title start -->
                                 <div class="post-content">
                                     <p class="post-desc pb-0">
-                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                                        their
                                         default model text, and a search for
                                     </p>
-                                 
+
                                 </div>
                                 <br>
                                 <div class="post-title d-flex align-items-center">
                                     <div class="profile-thumb">
                                         <a href="#">
                                             <figure class="profile-thumb-small">
-                                                <img src="assets/images/profile/profile-small-3.jpg" alt="profile picture">
+                                                <img src="assets/images/profile/profile-small-3.jpg"
+                                                    alt="profile picture">
                                             </figure>
                                         </a>
                                     </div>
                                     <!-- profile picture end -->
                                     <div class="posted-author">
-                                    
-                                    <!-- profile picture end -->
+
+                                        <!-- profile picture end -->
                                         <h6 class="author"><a href="profile.html">Jon Wileyam</a></h6>
                                         <span class="post-time">15 min ago</span>
                                     </div>
-    
-                                   
+
+
                                 </div>
                                 <!-- post title start -->
                                 <div class="post-content">
                                     <p class="post-desc pb-0">
-                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                                        their
                                         default model text, and a search for
                                     </p>
-                                 
+
                                 </div>
                             </div>
-                            
-                            
+
+                            <div class="share-box-inner">
+                                <!-- profile picture end -->
+                                <div class="profile-thumb">
+                                    <a href="#">
+                                        <figure class="profile-thumb-middle">
+                                            <img src="assets/images/profile/profile-small-37.jpg" alt="profile picture">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <!-- profile picture end -->
+
+                                <!-- share content box start -->
+                                <div class="share-content-box w-100">
+                                    <form class="share-text-box">
+                                        <textarea name="share" class="share-text-field" aria-disabled="true"
+                                            placeholder="Say Something" data-toggle="modal" data-target="#textbox"
+                                            id="email"></textarea>
+                                        <button class="btn-share" type="submit">share</button>
+                                    </form>
+                                </div>
+                                <!-- share content box end -->
+
+                                <!-- Modal start -->
+                                <div class="modal fade" id="textbox" aria-labelledby="textbox">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Share Your Mood</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body custom-scroll">
+                                                <input type="text" class="block w-100 p-2 mb-2 my-judul"
+                                                    placeholder="Judul">
+                                                <textarea name="share" class="share-field-big custom-scroll"
+                                                    placeholder="Say Something"></textarea>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="post-share-btn"
+                                                    data-dismiss="modal">cancel</button>
+                                                <button type="button" class="post-share-btn">post</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal end -->
+                            </div>
+
+
                         </div>
                     </div>
 
-                   
+
                 </div>
             </div>
         </div>
@@ -1075,7 +1194,7 @@
 
     <script>
         /* When the user clicks on the button,
-                                    toggle between hiding and showing the dropdown content */
+                                                                    toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
