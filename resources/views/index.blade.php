@@ -715,13 +715,70 @@
             </div>
         </div>
 
+
         <!-- Modal -->
-        <div class="modal-footer">
-            <button type="button" data-dismiss="modal">Batal</button>
-            <button type="button">Simpan</button>
-        </div>
-        </div>
-        </div>
+        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
+            aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLongTitle">Laporkan Jawaban</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                <p><b>Gambar Melanggar Kebijakan</b><br>
+                                    Konten ini mengandung gambar yang melanggar kebijakan</p><br>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                <p><b>Informasi Palsu</b><br>
+                                    Mengandung informasi yang tidak terbukti kebenarannya</p><br>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2"
+                                checked>
+                            <label class="form-check-label" for="flexRadioDefault2">
+                                <p><b>Konten Dewasa</b><br>
+                                    Mengandung seksual eksplisit, kekerasan, serta hal lain yang tidak pantas</p><br>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                <p><b>Kredensial Tidak Pantas</b><br>
+                                    Kredensial penulis menyinggung atau meniru identitas pihak lain</p><br>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                <p><b>Pelecehan</b><br>
+                                    Meremehkan atau memicu permusuhan dengan individu atau kelompok</p><br>
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                            <label class="form-check-label" for="flexRadioDefault1">
+                                <p><b>Spam</b><br>
+                                    Mengandung promosi terselubung terkait tautan, jasa, atau produk</p><br>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" data-dismiss="modal">Batal</button>
+                        <button type="button">Simpan</button>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Modal Comment-->
@@ -1001,8 +1058,6 @@
                                     </form>
                                 </div>
                                 <!-- share content box end -->
-
-
                             </div>
 
 
@@ -1167,7 +1222,7 @@
 
     <script>
         /* When the user clicks on the button,
-                                                                            toggle between hiding and showing the dropdown content */
+                                                                                                                    toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
