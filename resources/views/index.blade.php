@@ -996,40 +996,13 @@
                                 <div class="share-content-box w-100">
                                     <form class="share-text-box">
                                         <textarea name="share" class="share-text-field" aria-disabled="true"
-                                            placeholder="Say Something" data-toggle="modal" data-target="#textbox"
-                                            id="email"></textarea>
+                                            placeholder="Say Something" data-toggle="modal" id="email"></textarea>
                                         <button class="btn-share" type="submit">share</button>
                                     </form>
                                 </div>
                                 <!-- share content box end -->
 
-                                <!-- Modal start -->
-                                <div class="modal fade" id="textbox" aria-labelledby="textbox">
-                                    <div class="modal-dialog">
-                                        <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title">Share Your Mood</h5>
-                                                <button type="button" class="close" data-dismiss="modal"
-                                                    aria-label="Close">
-                                                    <span aria-hidden="true">&times;</span>
-                                                </button>
-                                            </div>
-                                            <div class="modal-body custom-scroll">
-                                                <input type="text" class="block w-100 p-2 mb-2 my-judul"
-                                                    placeholder="Judul">
-                                                <textarea name="share" class="share-field-big custom-scroll"
-                                                    placeholder="Say Something"></textarea>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="post-share-btn"
-                                                    data-dismiss="modal">cancel</button>
-                                                <button type="button" class="post-share-btn">post</button>
-                                            </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Modal end -->
                             </div>
 
 
@@ -1194,7 +1167,7 @@
 
     <script>
         /* When the user clicks on the button,
-                                                                    toggle between hiding and showing the dropdown content */
+                                                                            toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
