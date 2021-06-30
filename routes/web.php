@@ -33,9 +33,9 @@ Route::get('/friends', function () {
     return view('friends');
 })->name("friends");
 
-Route::get('/photos', function () {
-    return view('photos');
-})->name("photos");
+Route::get('/pengumuman', function () {
+    return view('pengumuman');
+})->name("pengumuman");
 
 Route::get('/organisasi/kbmti', function () {
     return view('proforganisasi');
