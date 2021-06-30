@@ -273,18 +273,46 @@
                                                     <span aria-hidden="true">&times;</span>
                                                 </button>
                                             </div>
-                                            <div class="modal-body custom-scroll">
-                                                <input type="text" class="block w-100 p-2 mb-2 my-judul"
-                                                    placeholder="Judul">
-                                                <textarea name="share" class="share-field-big custom-scroll"
-                                                    placeholder="Say Something"></textarea>
-                                            </div>
-                                            <div class="modal-footer">
-                                                <button type="button" class="post-share-btn"
-                                                    data-dismiss="modal">cancel</button>
-                                                <button type="button" class="post-share-btn">post</button>
-                                            </div>
+                                            {{-- Formulir Share --}}
+                                            <form action="">
+                                                <div class="modal-body custom-scroll">
+                                                    <input type="text" class="block w-100 p-2 mb-2 my-judul"
+                                                        placeholder="Judul">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <select id="inputState"
+                                                                class="form-control block w-100 p-2 mb-2">
+                                                                <option selected>Pilih Organisasi</option>
+                                                                <option value="1">KBMTI</option>
+                                                                <option>KBMPTI</option>
+                                                                <option>KBMSI</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col">
+                                                            <select id="inputState"
+                                                                class="form-control block w-100 p-2 mb-2">
+                                                                <option selected>Public</option>
+                                                                <option>Private</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
 
+                                                    <textarea name="share" class="share-field-big custom-scroll"
+                                                        placeholder="Say Something"></textarea>
+
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                        <input type="file" class="form-control-file"
+                                                            id="exampleFormControlFile1">
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="post-share-btn"
+                                                        data-dismiss="modal">cancel</button>
+                                                    <button type="submit" class="post-share-btn">Post</button>
+                                                </div>
+                                            </form>
+                                            {{-- Formulir Share --}}
                                         </div>
                                     </div>
                                 </div>
@@ -321,7 +349,7 @@
 
                                     <div class="posted-author">
                                         <h6 class="author">
-                                            <a href="{{ route('profile') }}">merry watson</a>
+                                            <a href="{{ route('profile') }}">Merry Watson</a>
                                             <img src="https://image.flaticon.com/icons/png/512/271/271228.png"
                                                 class="icon" alt="">
                                             <a href="organisasi/kbmti">KBMTI</a>
@@ -334,7 +362,10 @@
                                         <span></span>
                                         <div class="post-settings arrow-shape">
                                             <ul>
-                                                <li><button>edit post</button></li>
+                                                <li><button type="button" data-toggle="modal"
+                                                        data-target="#ModalEditPost">
+                                                        Edit Post
+                                                    </button></li>
                                                 <li><button>hapus post</button></li>
                                                 <li>
                                                     <button type="button" data-toggle="modal"
@@ -766,8 +797,8 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" data-dismiss="modal">Batal</button>
-                        <button type="button" data-toggle="modal"
-                        data-target="#modalAlert" data-dismiss="modal">Simpan</button>
+                        <button type="button" data-toggle="modal" data-target="#modalAlert"
+                            data-dismiss="modal">Simpan</button>
                     </div>
                 </div>
             </div>
@@ -1056,29 +1087,74 @@
             </div>
         </div>
 
-        {{-- Modal Alert Report --}}
-        <div class="modal fade" id="modalAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        {{-- Modal Edit Post --}}
+        <div class="modal fade" id="ModalEditPost" tabindex="-1" role="dialog" aria-labelledby="ModalEditPost"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Status</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
                     <div class="modal-body">
-                        Laporan berhasil dikirim
-                        <br>
-                        <span>Alasan : <p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" data-dismiss="modal">Tutup</button>
+                        <div class="card">
+                            <div class="post-title d-flex align-items-center">
+                                <!-- profile picture end -->
+                                <div class="profile-thumb">
+                                    <a href="#">
+                                        <figure class="profile-thumb-middle">
+                                            <img src="assets/images/profile/profile-small-1.jpg" alt="profile picture">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <!-- profile picture end -->
+
+                                <div class="posted-author">
+                                    <h6 class="author">
+                                        <a href="{{ route('profile') }}">Merry Watson</a>
+                                    </h6>
+                                    <span class="post-time">20 min ago</span>
+                                </div>
+                            </div>
+
+                            <!-- post title start -->
+                            <div class="post-content">
+                                <textarea name="share" class="share-field-big custom-scroll" aria-disabled="true"
+                                    data-toggle="modal"
+                                    id="email">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</textarea>
+                                <div class="post-thumb-gallery">
+                                    <img src="assets/images/post/post-1.jpg" alt="post image">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="post-share-btn" data-dismiss="modal">Batal</button>
+                                <button type="button" class="post-share-btn">Simpan</button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
-        </div>
-        {{-- Modal Ends --}}
+
+            {{-- Modal Alert Report --}}
+            <div class="modal fade" id="modalAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Status</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Laporan berhasil dikirim
+                            <br>
+                            <span>Alasan : <p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{-- Modal Ends --}}
 
     </main>
 
@@ -1233,7 +1309,7 @@
 
     <script>
         /* When the user clicks on the button,
-                                                                                                                    toggle between hiding and showing the dropdown content */
+                                                                                                                                                        toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
