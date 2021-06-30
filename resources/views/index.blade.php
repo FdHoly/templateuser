@@ -190,6 +190,186 @@
                             <!-- widget single item end -->
                             {{-- Latest top news deleted --}}
 
+                        </aside>
+                    </div>
+
+                    <div class="col-lg-6 order-1 order-lg-2">
+                        <!-- share box start -->
+                        <div class="card card-small">
+                            <div class="share-box-inner">
+                                <!-- profile picture end -->
+                                <div class="profile-thumb">
+                                    <a href="#">
+                                        <figure class="profile-thumb-middle">
+                                            <img src="assets/images/profile/profile-small-37.jpg" alt="profile picture">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <!-- profile picture end -->
+
+                                <!-- share content box start -->
+                                <div class="share-content-box w-100">
+                                    <form class="share-text-box">
+                                        <textarea name="share" class="share-text-field" aria-disabled="true"
+                                            placeholder="Say Something" data-toggle="modal" data-target="#textbox"
+                                            id="email"></textarea>
+                                        <button class="btn-share" type="submit">share</button>
+                                    </form>
+                                </div>
+                                <!-- share content box end -->
+
+                                <!-- Modal start -->
+                                <div class="modal fade" id="textbox" aria-labelledby="textbox">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title">Share Your Mood</h5>
+                                                <button type="button" class="close" data-dismiss="modal"
+                                                    aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            {{-- Formulir Share --}}
+                                            <form action="">
+                                                <div class="modal-body custom-scroll">
+                                                    <input type="text" class="block w-100 p-2 mb-2 my-judul"
+                                                        placeholder="Judul">
+                                                    <div class="row">
+                                                        <div class="col">
+                                                            <select id="inputState"
+                                                                class="form-control block w-100 p-2 mb-2">
+                                                                <option selected>Pilih Organisasi</option>
+                                                                <option value="1">KBMTI</option>
+                                                                <option>KBMPTI</option>
+                                                                <option>KBMSI</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="col">
+                                                            <select id="inputState"
+                                                                class="form-control block w-100 p-2 mb-2">
+                                                                <option selected>Public</option>
+                                                                <option>Private</option>
+                                                            </select>
+                                                        </div>
+                                                    </div>
+
+                                                    <textarea name="share" class="share-field-big custom-scroll"
+                                                        placeholder="Say Something"></textarea>
+
+                                                    <div class="form-group">
+                                                        <label for="exampleFormControlFile1">Unggah Foto</label>
+                                                        <input type="file" class="form-control-file"
+                                                            id="exampleFormControlFile1">
+                                                    </div>
+                                                </div>
+                                                <div class="modal-footer">
+                                                    <button type="button" class="post-share-btn"
+                                                        data-dismiss="modal">cancel</button>
+                                                    <button type="submit" class="post-share-btn">Post</button>
+                                                </div>
+                                            </form>
+                                            {{-- Formulir Share --}}
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Modal end -->
+                            </div>
+                        </div>
+                        <!-- share box end -->
+                        <div class="dropdown">
+                            <h6><span>Menampilkan Semua Postingan</span></h6>
+                            {{-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> --}}
+                            <img src="https://image.flaticon.com/icons/png/512/3126/3126539.png" onclick="myFunction()"
+                                class="filter__icon">
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="/">Semua</a>
+                                <a href="/filter=organisasi">Organisasi</a>
+                                <a href="/filter=universitas">Universitas</a>
+                            </div>
+                        </div>
+                        <!-- post status start -->
+                        <!-- post title start -->
+                        @for ($i = 0; $i < 8; $i++)
+                            <div class="card">
+                                <div class="post-title d-flex align-items-center">
+                                    <!-- profile picture end -->
+                                    <div class="profile-thumb">
+                                        <a href="#">
+                                            <figure class="profile-thumb-middle">
+                                                <img src="assets/images/profile/profile-small-1.jpg"
+                                                    alt="profile picture">
+                                            </figure>
+                                        </a>
+                                    </div>
+                                    <!-- profile picture end -->
+
+                                    <div class="posted-author">
+                                        <h1 class="author">
+                                            <a href="{{ route('profile') }}">Merry Watson</a>
+                                            ▶
+                                            <a href="organisasi/kbmti">KBMTI</a>
+                                            ▶ 
+                                            🔒
+                                        </h1>
+                                        <span class="post-time">20 min ago</span>
+                                    </div>
+                                    <div class="post-settings-bar">
+                                        <span></span>
+                                        <span></span>
+                                        <span></span>
+                                        <div class="post-settings arrow-shape">
+                                            <ul>
+                                                <li><button type="button" data-toggle="modal"
+                                                        data-target="#ModalEditPost">
+                                                        Edit Post
+                                                    </button></li>
+                                                <li><button>hapus post</button></li>
+                                                <li>
+                                                    <button type="button" data-toggle="modal"
+                                                        data-target="#exampleModalLong">
+                                                        Laporkan
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- post title start -->
+                                <div class="post-content">
+                                    <h5 style="margin-bottom: 10px">Judul Postingan</h5>
+                                    <p class="post-desc">
+                                        Many desktop publishing packages and web page editors now use Lorem Ipsum as
+                                        their
+                                        default model text, and a search for 'lorem ipsum' will uncover many web sites
+                                        still
+                                        in their infancy.
+                                    </p>
+                                    <div class="post-thumb-gallery">
+                                        <figure class="post-thumb img-popup">
+                                            <a href="assets/images/post/post-large-1.jpg">
+                                                <img src="assets/images/post/post-1.jpg" alt="post image">
+                                            </a>
+                                        </figure>
+                                    </div>
+                                    <div class="post-meta">
+                                        <ul class="comment-share-meta">
+                                            <li>
+                                                <button class="post-comment" data-toggle="modal"
+                                                    data-target="#ModalComment">
+                                                    <i class="bi bi-chat-bubble"></i>
+                                                    <span>41</span>
+                                                </button>
+
+                                            </li>
+                                            <!-- Button trigger modal -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        @endfor
+
+                    </div>
 
                             <!-- widget single item start -->
                             {{-- <div class="card widget-item">
@@ -208,8 +388,15 @@
                                             <!-- profile picture end -->
 
                                             <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
-                                                <p class="list-subtitle">2 min ago</p>
+
+                                                <h3 class="list-title"><a href="" data-toggle="modal"
+                                                        data-target="#ModalPengumuman">Lorem Ipsum Discolor Amet</a></h3>
+                                                <p class="list-subtitle">
+                                                    <span>KBMTI</span>
+                                                    -
+                                                    <span>5 min ago</span>
+                                                </p>
+                                                {{-- <p class="list-subtitle">5 min ago</p> --}}
                                             </div>
                                         </li>
                                         <li class="unorder-list">
@@ -520,17 +707,6 @@
                                     <span class="post-time">15 min ago</span>
                                 </div>
 
-<<<<<<< HEAD
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-=======
 
         <!-- Modal -->
         <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog"
@@ -591,118 +767,20 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" data-dismiss="modal">Batal</button>
-                        <button type="button">Simpan</button>
+                        <button type="button" data-toggle="modal" data-target="#modalAlert"
+                            data-dismiss="modal">Simpan</button>
                     </div>
                 </div>
             </div>
         </div>
->>>>>>> 107f7e1bb8de5d97f9ddb9cf6a51aff163c195ae
 
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc pb-0">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for
-                                </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 206 people like this</span>
-                                        <strong>206</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>07</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
+        <!-- Modal Comment-->
+        <div class="modal fade" id="ModalComment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
                         <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-29.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">william henry</a></h6>
-                                    <span class="post-time">35 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="plyr__video-embed plyr-youtube">
-                                    <iframe src="https://www.youtube.com/embed/WeA7edXsU40" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 112 people like this</span>
-                                        <strong>112</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>36</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>08</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
                             <div class="post-title d-flex align-items-center">
                                 <!-- profile picture end -->
                                 <div class="profile-thumb">
@@ -715,8 +793,13 @@
                                 <!-- profile picture end -->
 
                                 <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">Kate Palson</a></h6>
-                                    <span class="post-time">35 min ago</span>
+                                    <h6 class="author">
+                                        <a href="{{ route('profile') }}">Merry Watson</a>
+                                        <img src="https://image.flaticon.com/icons/png/512/271/271228.png" class="icon"
+                                            alt="">
+                                        <a href="organisasi/kbmti">KBMTI</a>
+                                    </h6>
+                                    <span class="post-time">20 min ago</span>
                                 </div>
 
                                 <div class="post-settings-bar">
@@ -732,152 +815,6 @@
                                     </div>
                                 </div>
                             </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="post-thumb-gallery img-gallery">
-                                    <div class="row no-gutters">
-                                        <div class="col-8">
-                                            <figure class="post-thumb">
-                                                <a class="gallery-selector" href="assets/images/post/post-large-2.jpg">
-                                                    <img src="assets/images/post/post-2.jpg" alt="post image">
-                                                </a>
-                                            </figure>
-                                        </div>
-                                        <div class="col-4">
-                                            <div class="row">
-                                                <div class="col-12">
-                                                    <figure class="post-thumb">
-                                                        <a class="gallery-selector" href="assets/images/post/post-large-3.jpg">
-                                                            <img src="assets/images/post/post-3.jpg" alt="post image">
-                                                        </a>
-                                                    </figure>
-                                                </div>
-                                                <div class="col-12">
-                                                    <figure class="post-thumb">
-                                                        <a class="gallery-selector" href="assets/images/post/post-large-4.jpg">
-                                                            <img src="assets/images/post/post-4.jpg" alt="post image">
-                                                        </a>
-                                                    </figure>
-                                                </div>
-                                                <div class="col-12">
-                                                    <figure class="post-thumb">
-                                                        <a class="gallery-selector" href="assets/images/post/post-large-5.jpg">
-                                                            <img src="assets/images/post/post-5.jpg" alt="post image">
-                                                        </a>
-                                                    </figure>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 70 people like this</span>
-                                        <strong>70</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>28</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>12</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-4.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="{{ route('profile') }}">Robart Faul</a></h6>
-                                    <span class="post-time">40 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc pb-0">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for Many desktop publishing packages and web page
-                                    editors now use Lorem Ipsum as their default model text, and a search for Many
-                                    desktop publishing duskam azer.
-                                </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 250 people like this</span>
-                                        <strong>250</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>80</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>10</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-8.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
 
                                 <div class="posted-author">
                                     <h6 class="author"><a href="{{ route('profile') }}">Halen Omaro</a></h6>
@@ -1036,160 +973,51 @@
                                     <h6 class="author"><a href="{{ route('profile') }}">Jon Wileyam</a></h6>
                                     <span class="post-time">15 min ago</span>
                                 </div>
-<<<<<<< HEAD
+                                <!-- share content box end -->
+                            </div>
+                        </div>
+                    </div>
 
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
+                            <!-- widget single item end -->
+
+                </div>
+            </div>
+        </div>
+
+        {{-- Modal Pengumuman --}}
+        <div class="modal fade" id="ModalPengumuman" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="card">
+                            <!-- post title start -->
+                            <div class="post-title d-flex align-items-center">
+                                <!-- profile picture end -->
+                                <div class="profile-thumb">
+                                    <a href="#">
+                                        <figure class="profile-thumb-middle">
+                                            <img src="assets/images/profile/profile-small-3.jpg" alt="profile picture">
+                                        </figure>
+                                    </a>
                                 </div>
+                                <!-- profile picture end -->
+
+                                <div class="posted-author">
+                                    <h6 class="author"><a href="profile.html">Judul Pengumuman</a></h6>
+                                    <span class="post-time">15 min ago</span>
+                                </div>
+
                             </div>
                             <!-- post title start -->
                             <div class="post-content">
                                 <p class="post-desc pb-0">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for
+                                    Ini nanti berisi mengenai informasi apa yang terdapat dari sebuah pengumuman yang ada di home
                                 </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 320 people like this</span>
-                                        <strong>320</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>07</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
+                                
                             </div>
                         </div>
-                        <!-- post status end -->
-
                     </div>
-
-                    <div class="col-lg-3 order-3">
-                        <aside class="widget-area">
-                            <!-- widget single item start -->
-                            <div class="card widget-item">
-                                <h4 class="widget-title">Pengumuman Terbaru</h4>
-                                <div class="widget-body">
-                                    <div id="chatScroll" class="nano has-scrollbar" style="height:300px; overflow-y: scroll;">
-                                        <ul class="like-page-list-wrapper">
-                                            @for ($i = 0; $i < 10; $i++) <li class="unorder-list">
-                                                <!-- profile picture end -->
-                                                <div class="profile-thumb">
-                                                    <a href="#">
-                                                        <figure class="profile-thumb-small">
-                                                            <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                                <!-- profile picture end -->
-                                                <div class="unorder-list-info">
-                                                    <h3 class="list-title"><a href="#">Diskusi Isu Polemik TWK LPM Mei x LPM Fenomena</a>
-                                                    </h3>
-                                                    <p class="list-subtitle">31 Juni 2021</p>
-                                                </div>
-                                                </li>
-                                                @endfor
-                                        </ul>
-                                    </div>
-                                </div>
-=======
-                                <!-- share content box end -->
->>>>>>> 107f7e1bb8de5d97f9ddb9cf6a51aff163c195ae
-                            </div>
-
-                            <!-- widget single item end -->
-
-                            <!-- widget single item start -->
-                            <div class="card widget-item">
-                                <h4 class="widget-title">Acara Terbaru</h4>
-                                <div class="widget-body">
-                                    <div id="chatScroll" class="nano has-scrollbar" style="height:300px; overflow-y: scroll;">
-                                        <ul class="like-page-list-wrapper">
-                                            @for ($i = 0; $i < 10; $i++) <li class="unorder-list">
-                                                <!-- profile picture end -->
-                                                <div class="profile-thumb">
-                                                    <a href="#">
-                                                        <figure class="profile-thumb-small">
-                                                            <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                                <!-- profile picture end -->
-                                                <div class="unorder-list-info">
-                                                    <h3 class="list-title"><a href="#">Sosialisasi Program Kampus Merdeka</a>
-                                                    </h3>
-                                                    <p class="list-subtitle">31 Juni 2021</p>
-                                                </div>
-                                                </li>
-                                                @endfor
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- widget single item end -->
-                            <!-- widget single item start -->
-                            <div class="card widget-item">
-                                <h4 class="widget-title">Undangan Rapat</h4>
-                                <div class="widget-body">
-                                    <div id="chatScroll" class="nano has-scrollbar" style="height:300px; overflow-y: scroll;">
-                                        <ul class="like-page-list-wrapper">
-                                            @for ($i = 0; $i < 10; $i++) <li class="unorder-list">
-                                                <!-- profile picture end -->
-                                                <div class="profile-thumb">
-                                                    <a href="#">
-                                                        <figure class="profile-thumb-small">
-                                                            <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
-                                                        </figure>
-                                                    </a>
-                                                </div>
-                                                <!-- profile picture end -->
-                                                <div class="unorder-list-info">
-                                                    <h3 class="list-title"><a href="#">Rapat Rutin III</a>
-                                                    </h3>
-                                                    <p class="list-subtitle">31 Juni 2021</p>
-                                                </div>
-                                                </li>
-                                                @endfor
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- widget single item end -->
-
-                            <!-- widget single item start -->
-                            {{-- <div class="card widget-item">
-                                <h4 class="widget-title">Advertizement</h4>
-                                <div class="widget-body">
-                                    <div class="add-thumb">
-                                        <a href="#">
-                                            <img src="assets/images/banner/advertise.jpg" alt="advertisement">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div> --}}
-                            <!-- widget single item end -->
 
                             <!-- widget single item start -->
 
@@ -1199,7 +1027,77 @@
             </div>
         </div>
 
-        <!-- Modal -->
+
+        {{-- Modal Pengumuman --}}
+
+        {{-- Modal Edit Post --}}
+        <div class="modal fade" id="ModalEditPost" tabindex="-1" role="dialog" aria-labelledby="ModalEditPost"
+            aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="card">
+                            <div class="post-title d-flex align-items-center">
+                                <!-- profile picture end -->
+                                <div class="profile-thumb">
+                                    <a href="#">
+                                        <figure class="profile-thumb-middle">
+                                            <img src="assets/images/profile/profile-small-1.jpg" alt="profile picture">
+                                        </figure>
+                                    </a>
+                                </div>
+                                <!-- profile picture end -->
+
+                                <div class="posted-author">
+                                    <h6 class="author">
+                                        <a href="{{ route('profile') }}">Merry Watson</a>
+                                    </h6>
+                                    <span class="post-time">20 min ago</span>
+                                </div>
+                            </div>
+
+                            <!-- post title start -->
+                            <div class="post-content">
+                                <textarea name="share" class="share-field-big custom-scroll" aria-disabled="true"
+                                    data-toggle="modal"
+                                    id="email">Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy.</textarea>
+                                <div class="post-thumb-gallery">
+                                    <img src="assets/images/post/post-1.jpg" alt="post image">
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="post-share-btn" data-dismiss="modal">Batal</button>
+                                <button type="button" class="post-share-btn">Simpan</button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            {{-- Modal Alert Report --}}
+            <div class="modal fade" id="modalAlert" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Status</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            Laporan berhasil dikirim
+                            <br>
+                            <span>Alasan : <p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" data-dismiss="modal">Tutup</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{-- Modal Ends --}}
 
     </main>
 
@@ -1355,10 +1253,14 @@
     <script>
         /* When the user clicks on the button,
 <<<<<<< HEAD
+<<<<<<< HEAD
                                     toggle between hiding and showing the dropdown content */
 =======
                                                                                                                     toggle between hiding and showing the dropdown content */
 >>>>>>> 107f7e1bb8de5d97f9ddb9cf6a51aff163c195ae
+=======
+                                                                                                                                                                    toggle between hiding and showing the dropdown content */
+>>>>>>> 6e3f53393fda638971813aec35775fd6e46e41dc
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }

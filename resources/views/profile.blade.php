@@ -60,7 +60,6 @@
                                 </div>
                             </div>
 
-
                             <!-- widget single item start -->
                             <div class="card widget-item">
                                 <h4 class="widget-title">Organisasi</h4>

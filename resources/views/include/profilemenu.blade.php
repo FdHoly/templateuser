@@ -4,7 +4,9 @@
             <nav>
                 <ul class="main-menu">
                     <li class="{{Route::currentRouteName() == 'profile' ? 'active' : ''}}"><a href="{{ route('profile') }}">Post</a></li>
-                    <li class="{{Route::currentRouteName() == 'friends' ? 'active' : ''}}"><a href="{{ route('friends')}}">organisasi</a></li>
+                    <li class="{{Route::currentRouteName() == 'friends' ? 'active' : ''}}"><a href="{{ route('friends')}}">Organisasi</a></li>
+                    <li class="{{Route::currentRouteName() == 'pengumuman' ? 'active' : ''}}"><a href="{{ route('pengumuman')}}">Pengumuman</a></li>
+                    <li class="{{Route::currentRouteName() == 'laporan' ? 'active' : ''}}"><a href="{{ route('laporan')}}">Laporan</a></li>
                 </ul>
             </nav>
         </div>
