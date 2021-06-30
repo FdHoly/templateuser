@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="en">
 
-    @include('include.head')
+@include('include.head')
 
 
 <body>
@@ -30,11 +30,11 @@
                             </div>
                         </div>
 
-                       @include('include.profilemenu')
-                        
-                       <div class="col-lg-2 col-md-3 d-none d-md-block">
+                        @include('include.profilemenu')
+
+                        <div class="col-lg-2 col-md-3 d-none d-md-block">
                             <div class="profile-edit-panel">
-                                <a href="{{ route('editprofile')}}"><button class="edit-btn">edit profile</button></a>
+                                <a href="{{ route('editprofile') }}"><button class="edit-btn">edit profile</button></a>
                             </div>
                         </div>
                     </div>
@@ -49,11 +49,13 @@
                                 <h4 class="widget-title">kate palson</h4>
                                 <div class="widget-body">
                                     <div class="about-author">
-                                        <p>I Don’t know how? But i believe that it is possible one day if i stay with my dream all time</p>
+                                        <p>I Don’t know how? But i believe that it is possible one day if i stay with my
+                                            dream all time</p>
                                         <ul class="author-into-list">
                                             <li><a href="#"><i class="bi bi-office-bag"></i>Graphic Designer</a></li>
                                             <li><a href="#"><i class="bi bi-home"></i>Melbourne, Australia</a></li>
-                                            <li><a href="#"><i class="bi bi-location-pointer"></i>Pulshar, Melbourne</a></li>
+                                            <li><a href="#"><i class="bi bi-location-pointer"></i>Pulshar, Melbourne</a>
+                                            </li>
                                             <li><a href="#"><i class="bi bi-heart-beat"></i>Travel, Swimming</a></li>
                                         </ul>
                                     </div>
@@ -70,7 +72,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-33.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-33.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -82,7 +85,8 @@
                                             </div>
                                             <button class="like-button active">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -90,7 +94,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-30.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-30.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -102,7 +107,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -110,7 +116,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-5.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-5.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -122,7 +129,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -130,7 +138,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-29.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-29.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -142,7 +151,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                     </ul>
@@ -157,13 +167,7 @@
                         <div class="card card-small">
                             <div class="share-box-inner">
                                 <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-37.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
+                                
                                 <!-- profile picture end -->
 
                                 <!-- share content box start -->
@@ -210,6 +214,13 @@
                                                             <option>Agenda Rapat</option>
                                                         </select>
                                                     </div>
+                                                    <div class="col">
+                                                        <select id="inputState"
+                                                            class="form-control block w-100 p-2 mb-2">
+                                                            <option selected>Public</option>
+                                                            <option>Private</option>
+                                                        </select>
+                                                    </div>
                                                 </div>
 
                                                 <textarea name="share" class="share-field-big custom-scroll"
@@ -227,7 +238,7 @@
                                 <!-- Modal end -->
                             </div>
                         </div>
-                        
+
 
                         <!-- post status start -->
                         <div class="card">
@@ -244,21 +255,17 @@
                                 <!-- profile picture end -->
 
                                 <div class="posted-author">
-                                    <h6 class="author"><a href="profile.html">Jon Wileyam</a></h6>
+                                    <h6 class="author">
+                                        Ini Judul Pengumuman ▶
+                                        <a href="organisasi/kbmti">KBMTI</a> ▶
+                                        🔒
+                                    </h6>
                                     <span class="post-time">15 min ago</span>
                                 </div>
 
                                 <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
+                                    <img class="icon" src="https://image.flaticon.com/icons/png/512/1214/1214428.png"
+                                        alt="delete">
                                 </div>
                             </div>
                             <!-- post title start -->
@@ -267,317 +274,10 @@
                                     Many desktop publishing packages and web page editors now use Lorem Ipsum as their
                                     default model text, and a search for
                                 </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 201 people like this</span>
-                                        <strong>201</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>07</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
                         <!-- post status end -->
 
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-4.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="profile.html">william henry</a></h6>
-                                    <span class="post-time">35 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="plyr__video-embed plyr-video">
-                                    <iframe src="https://www.youtube.com/embed/WeA7edXsU40" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                                </div>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 201 people like this</span>
-                                        <strong>201</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>07</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-8.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="profile.html">Mili Raoulin</a></h6>
-                                    <span class="post-time">50 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="post-thumb-gallery img-gallery">
-                                    <div class="row no-gutters">
-                                        <div class="col-6">
-                                            <figure class="post-thumb">
-                                                <a class="gallery-selector" href="assets/images/post/post-large-6.jpg">
-                                                    <img src="assets/images/post/post-6.jpg" alt="post image">
-                                                </a>
-                                            </figure>
-                                        </div>
-                                        <div class="col-6">
-                                            <figure class="post-thumb">
-                                                <a class="gallery-selector" href="assets/images/post/post-large-7.jpg">
-                                                    <img src="assets/images/post/post-7.jpg" alt="post image">
-                                                </a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 230 people like this</span>
-                                        <strong>230</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>65</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>04</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-6.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="profile.html">Robart Faul</a></h6>
-                                    <span class="post-time">40 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc pb-0">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for Many desktop publishing packages and web page
-                                    editors now use Lorem Ipsum as their default model text, and a search for Many
-                                    desktop publishing duskam azer.
-                                </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 250 people like this</span>
-                                        <strong>250</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>80</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>10</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
-                        <div class="card">
-                            <!-- post title start -->
-                            <div class="post-title d-flex align-items-center">
-                                <!-- profile picture end -->
-                                <div class="profile-thumb">
-                                    <a href="#">
-                                        <figure class="profile-thumb-middle">
-                                            <img src="assets/images/profile/profile-small-2.jpg" alt="profile picture">
-                                        </figure>
-                                    </a>
-                                </div>
-                                <!-- profile picture end -->
-
-                                <div class="posted-author">
-                                    <h6 class="author"><a href="profile.html">merry watson</a></h6>
-                                    <span class="post-time">20 min ago</span>
-                                </div>
-
-                                <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- post title start -->
-                            <div class="post-content">
-                                <p class="post-desc">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for 'lorem ipsum' will uncover many web sites still
-                                    in their infancy.
-                                </p>
-                                <div class="post-thumb-gallery">
-                                    <figure class="post-thumb img-popup">
-                                        <a href="assets/images/post/post-large-1.jpg">
-                                            <img src="assets/images/post/post-1.jpg" alt="post image">
-                                        </a>
-                                    </figure>
-                                </div>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 201 people like this</span>
-                                        <strong>201</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>07</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- post status end -->
-
-                        <!-- post status start -->
                         <div class="card">
                             <!-- post title start -->
                             <div class="post-title d-flex align-items-center">
@@ -592,53 +292,57 @@
                                 <!-- profile picture end -->
 
                                 <div class="posted-author">
-                                    <h6 class="author"><a href="profile.html">Jon Wileyam</a></h6>
+                                    <h6 class="author">
+                                        Ini Judul Pengumuman ▶
+                                        <a href="organisasi/kbmti">KBMTI</a>
+
+                                    </h6>
                                     <span class="post-time">15 min ago</span>
                                 </div>
 
                                 <div class="post-settings-bar">
-                                    <span></span>
-                                    <span></span>
-                                    <span></span>
-                                    <div class="post-settings arrow-shape">
-                                        <ul>
-                                            <li><button>copy link to adda</button></li>
-                                            <li><button>edit post</button></li>
-                                            <li><button>embed adda</button></li>
-                                        </ul>
-                                    </div>
+                                    <img class="icon" src="https://image.flaticon.com/icons/png/512/1214/1214428.png"
+                                        alt="delete">
                                 </div>
                             </div>
                             <!-- post title start -->
                             <div class="post-content">
                                 <p class="post-desc pb-0">
-                                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their
-                                    default model text, and a search for
+                                    Halo dimensi kreasi 👋
+
+                                    <br>
+                                    Pada sehat semua kan? Sehatlah ya jangan sakit sakitt
+                                    <br>
+                                    Jadi berkaitan dengan pdh himpunan yang bentar lagi jadi, dari entre mau ngedata
+                                    pelunasan pembayaran pdh.
+                                    <br>
+
+                                    <br>
+                                    Pembayaran PDH sebesar Rp 150k. Untuk yang membayar DP Rp 75k kemarin dapat
+                                    melakukan pelunasan paling lambat tanggal
+                                    <br>
+                                    
+                                    <br>
+                                    Untuk pembayaran bisa transfer ke
+                                    <br>
+                                    BCA = 3680266441 a/n Dinar Fairus Salsabillah
+                                    <br>
+                                    OVO = 089602649130 a/n Dinar Fairus Salsabillah
+                                    <br>
+
+                                    <br>
+                                    Pelunasan dan bukti tf bisa isi disini yaa
+                                    <br>
+                                    https://forms.gle/gKUsq34jLeSSnWnt6
+
+                                    <br>
+                                    Terima kasih semuanyaaaa sehat sehat terusss
+                                    luvvvyuall 🖤
                                 </p>
-                                <div class="post-meta">
-                                    <button class="post-meta-like">
-                                        <i class="bi bi-heart-beat"></i>
-                                        <span>You and 204 people like this</span>
-                                        <strong>204</strong>
-                                    </button>
-                                    <ul class="comment-share-meta">
-                                        <li>
-                                            <button class="post-comment">
-                                                <i class="bi bi-chat-bubble"></i>
-                                                <span>41</span>
-                                            </button>
-                                        </li>
-                                        <li>
-                                            <button class="post-share">
-                                                <i class="bi bi-share"></i>
-                                                <span>07</span>
-                                            </button>
-                                        </li>
-                                    </ul>
-                                </div>
                             </div>
                         </div>
-                        <!-- post status end -->
+
+                    <!-- post status end -->
                     </div>
 
                     <div class="col-lg-3 order-3">
@@ -653,14 +357,16 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-9.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
                                             <!-- profile picture end -->
 
                                             <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you
+                                                        want</a></h3>
                                                 <p class="list-subtitle">5 min ago</p>
                                             </div>
                                         </li>
@@ -669,14 +375,16 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-35.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-35.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
                                             <!-- profile picture end -->
 
                                             <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you
+                                                        want</a></h3>
                                                 <p class="list-subtitle">10 min ago</p>
                                             </div>
                                         </li>
@@ -685,14 +393,16 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-15.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-15.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
                                             <!-- profile picture end -->
 
                                             <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you
+                                                        want</a></h3>
                                                 <p class="list-subtitle">18 min ago</p>
                                             </div>
                                         </li>
@@ -701,14 +411,16 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-6.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-6.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
                                             <!-- profile picture end -->
 
                                             <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you
+                                                        want</a></h3>
                                                 <p class="list-subtitle">25 min ago</p>
                                             </div>
                                         </li>
@@ -717,14 +429,16 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-34.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-34.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
                                             <!-- profile picture end -->
 
                                             <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you want</a></h3>
+                                                <h3 class="list-title"><a href="#">Any one can join with us if you
+                                                        want</a></h3>
                                                 <p class="list-subtitle">39 min ago</p>
                                             </div>
                                         </li>
@@ -745,7 +459,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-10.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-10.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -757,7 +472,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -765,7 +481,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-2.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-2.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -777,7 +494,8 @@
                                             </div>
                                             <button class="like-button active">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -785,7 +503,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-5.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-5.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -797,7 +516,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                         <li class="unorder-list">
@@ -805,7 +525,8 @@
                                             <div class="profile-thumb">
                                                 <a href="#">
                                                     <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-14.jpg" alt="profile picture">
+                                                        <img src="assets/images/profile/profile-small-14.jpg"
+                                                            alt="profile picture">
                                                     </figure>
                                                 </a>
                                             </div>
@@ -817,7 +538,8 @@
                                             </div>
                                             <button class="like-button">
                                                 <img class="heart" src="assets/images/icons/heart.png" alt="">
-                                                <img class="heart-color" src="assets/images/icons/heart-color.png" alt="">
+                                                <img class="heart-color" src="assets/images/icons/heart-color.png"
+                                                    alt="">
                                             </button>
                                         </li>
                                     </ul>
@@ -838,7 +560,7 @@
     </div>
     <!-- Scroll to Top End -->
 
-   
+
 
     <!-- JS
 ============================================ -->

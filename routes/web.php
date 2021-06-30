@@ -43,3 +43,7 @@ Route::get('/organisasi/kbmti', function () {
 Route::get('/editprofile', function () {
     return view('editprofile');
 })->name("editprofile");;
+
+Route::get('/laporan', function () {
+    return view('reportview');
+})->name("laporan");
