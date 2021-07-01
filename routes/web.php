@@ -48,6 +48,12 @@ Route::get('/laporan', function () {
     return view('reportview');
 })->name("laporan");
 
+
 Route::get('/organisasi', function () {
     return view('listorg');
 })->name("listorg");
+
+Route::get('/organisasibaru', function () {
+    return view('grupbaru');
+})->name("grupbaru");
+
