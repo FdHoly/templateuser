@@ -69,6 +69,7 @@
 
                                     <h4 class="widget-title ml-3">Menampilkan Organisasi Disekitar Anda
                                     </h4>
+
                                     {{-- <h4 class="widget-title ml-3">Menampilkan Pencarian
                                         <span class="text-primary"> "KBMTI" </span>
                                     </h4> --}}
@@ -90,10 +91,13 @@
                                                         </figure>
                                                     </div>
                                                     <div class="card widget-item">
-                                                        <h4 class="widget-title">
+
+                                                        <h4 class="widget-title author">
+                                                            <a href="organisasi/kbmti">
                                                             KBMTI
                                                             <br>
                                                             ( Keluarga Besar Mahasiswa Teknologi Informasi )
+                                                            </a>
                                                         </h4>
 
                                                         {{-- <h4 >Keluarga Besar Mahasiswa Teknologi Informasi</h4> --}}
@@ -108,6 +112,7 @@
                                                                 </ul>
                                                             </div>
                                                         </div>
+                                                        <button class="btn mt-3"> Gabung </button>
                                                     </div>
                                                 </div>
                                             </div>

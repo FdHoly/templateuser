@@ -37,7 +37,7 @@
                 <div class="col-lg-3 order-2 order-lg-1">
 
                     <aside class="widget-area">
-                        <div>
+                        <div class="mb-4">
                             <!-- widget single item start -->
                             <div class="organisasi__foto">
                                 <figure class="profile-picture">
@@ -63,6 +63,12 @@
                                         </ul>
                                     </div>
                                 </div>
+
+                                <button class="btn mt-3"> Gabung </button>
+                                {{-- <button class="like-button icon__follow">
+                                    <img class="heart" src="{{ url('assets/images/icons/heart.png') }}" alt="">
+                                    <img class="heart-color" src="{{url('assets/images/icons/heart-color.png')}}" alt="">
+                                </button> --}}
                             </div>
                         </div>
                         <!-- widget single item end -->
