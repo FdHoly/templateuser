@@ -421,104 +421,30 @@
                             <div class="card widget-item">
                                 <h4 class="widget-title">Pengumuman Terbaru</h4>
                                 <div class="widget-body">
-                                    <ul class="like-page-list-wrapper">
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-9.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-
-                                                <h3 class="list-title"><a href="" data-toggle="modal"
-                                                        data-target="#ModalPengumuman">Lorem Ipsum Discolor Amet</a></h3>
-                                                <p class="list-subtitle">
-                                                    <span>KBMTI</span>
-                                                    -
-                                                    <span>5 min ago</span>
-                                                </p>
-                                                {{-- <p class="list-subtitle">5 min ago</p> --}}
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-35.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">10 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-15.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">18 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-6.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">25 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-34.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">39 min ago</p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                        <div id="chatScroll" class="nano has-scrollbar" style="height:300px; overflow-y: scroll;">
+                                            <ul class="like-page-list-wrapper">
+                                                @for ($i = 0; $i < 10; $i++) <li class="unorder-list">
+                                                    <!-- profile picture end -->
+                                                    <div class="profile-thumb">
+                                                        <a href="#">
+                                                            <figure class="profile-thumb-small">
+                                                                <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
+                                                            </figure>
+                                                        </a>
+                                                    </div>
+                                                    <!-- profile picture end -->
+                                                    <div class="unorder-list-info">
+                                                        <h3 class="list-title"><a href="" data-toggle="modal"
+                                                            data-target="#ModalPengumuman">Ini Judul Pengumuman</a>
+                                                        </h3>
+                                                        <p class="list-subtitle">
+                                                            KBMTI - 
+                                                            31 Juni 2021</p>
+                                                    </div>
+                                                    </li>
+                                                    @endfor
+                                            </ul>
+                                        </div>                                            
                                 </div>
                             </div>
                             <!-- widget single item end -->
@@ -527,98 +453,30 @@
                             <div class="card widget-item">
                                 <h4 class="widget-title">Acara Terbaru</h4>
                                 <div class="widget-body">
-                                    <ul class="like-page-list-wrapper">
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-9.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">5 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-35.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">10 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-15.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">18 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-6.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">25 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-34.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">39 min ago</p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    <div id="chatScroll" class="nano has-scrollbar" style="height:300px; overflow-y: scroll;">
+                                        <ul class="like-page-list-wrapper">
+                                            @for ($i = 0; $i < 10; $i++) <li class="unorder-list">
+                                                <!-- profile picture end -->
+                                                <div class="profile-thumb">
+                                                    <a href="#">
+                                                        <figure class="profile-thumb-small">
+                                                            <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                                <!-- profile picture end -->
+                                                <div class="unorder-list-info">
+                                                    <h3 class="list-title"><a href="" data-toggle="modal"
+                                                        data-target="#ModalPengumuman">Ini Judul Pengumuman</a>
+                                                    </h3>
+                                                    <p class="list-subtitle">
+                                                        KBMTI - 
+                                                        31 Juni 2021</p>
+                                                </div>
+                                                </li>
+                                                @endfor
+                                        </ul>
+                                    </div>  
                                 </div>
                             </div>
                             <!-- widget single item end -->
@@ -627,98 +485,30 @@
                             <div class="card widget-item">
                                 <h4 class="widget-title">Undangan Rapat</h4>
                                 <div class="widget-body">
-                                    <ul class="like-page-list-wrapper">
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-9.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">5 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-35.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">10 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-15.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">18 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-6.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">25 min ago</p>
-                                            </div>
-                                        </li>
-                                        <li class="unorder-list">
-                                            <!-- profile picture end -->
-                                            <div class="profile-thumb">
-                                                <a href="#">
-                                                    <figure class="profile-thumb-small">
-                                                        <img src="assets/images/profile/profile-small-34.jpg"
-                                                            alt="profile picture">
-                                                    </figure>
-                                                </a>
-                                            </div>
-                                            <!-- profile picture end -->
-
-                                            <div class="unorder-list-info">
-                                                <h3 class="list-title"><a href="#">Any one can join with us if you
-                                                        want</a></h3>
-                                                <p class="list-subtitle">39 min ago</p>
-                                            </div>
-                                        </li>
-                                    </ul>
+                                    <div id="chatScroll" class="nano has-scrollbar" style="height:300px; overflow-y: scroll;">
+                                        <ul class="like-page-list-wrapper">
+                                            @for ($i = 0; $i < 10; $i++) <li class="unorder-list">
+                                                <!-- profile picture end -->
+                                                <div class="profile-thumb">
+                                                    <a href="#">
+                                                        <figure class="profile-thumb-small">
+                                                            <img src="assets/images/profile/profile-small-9.jpg" alt="profile picture">
+                                                        </figure>
+                                                    </a>
+                                                </div>
+                                                <!-- profile picture end -->
+                                                <div class="unorder-list-info">
+                                                    <h3 class="list-title"><a href="" data-toggle="modal"
+                                                        data-target="#ModalPengumuman">Ini Judul Pengumuman</a>
+                                                    </h3>
+                                                    <p class="list-subtitle">
+                                                        KBMTI - 
+                                                        31 Juni 2021</p>
+                                                </div>
+                                                </li>
+                                                @endfor
+                                        </ul>
+                                    </div>  
                                 </div>
                             </div>
                             <!-- widget single item end -->

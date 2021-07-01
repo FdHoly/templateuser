@@ -7,7 +7,10 @@
                     <nav>
                         <ul>
                             <li class="active"><a href="{{ route('index') }}">Beranda</a></li>
+                            <li class="active"><a href="{{ route('listorg') }}">organisasi</a></li>
+                            
                             <li class="active"><a href="{{ route('grupbaru') }}">Buat Organisasi</a></li>
+
 
 
                         </nav>
