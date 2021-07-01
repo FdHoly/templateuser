@@ -47,3 +47,7 @@ Route::get('/editprofile', function () {
 Route::get('/laporan', function () {
     return view('reportview');
 })->name("laporan");
+
+Route::get('/organisasi', function () {
+    return view('listorg');
+})->name("listorg");

@@ -7,6 +7,7 @@
                     <nav>
                         <ul>
                             <li class="active"><a href="{{ route('index') }}">home</a></li>
+                            <li class="active"><a href="{{ route('listorg') }}">organisasi</a></li>
 
                         </nav>
                     </div>

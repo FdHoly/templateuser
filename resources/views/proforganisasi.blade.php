@@ -37,31 +37,33 @@
                 <div class="col-lg-3 order-2 order-lg-1">
 
                     <aside class="widget-area">
-                        <!-- widget single item start -->
-                        <div class="organisasi__foto">
-                            <figure class="profile-picture">
-                                <a href="#">
-                                    <img src="https://media-exp3.licdn.com/dms/image/C510BAQHzyDspmy9zYQ/company-logo_200_200/0/1579617593341?e=2159024400&v=beta&t=JxR_8Y7zhu4MQh5c2iUqn_atI61woD5dCetYYgataQg"
-                                        alt="profile picture">
-                                </a>
-                            </figure>
-                        </div>
-                        <div class="card widget-item">
-                            <h4 class="widget-title">
-                                KBMTI
-                                <br>
-                                ( Keluarga Besar Mahasiswa Teknologi Informasi )
-                            </h4>
-                            {{-- <h4 >Keluarga Besar Mahasiswa Teknologi Informasi</h4> --}}
-                            <div class="widget-body">
-                                <div class="about-author">
-                                    <p>Akun Resmi Organisasi Himpunan Teknologi Informasi Universitas Brawijaya</p>
-                                    <ul class="author-into-list">
-                                        <li><a href="#"><i class="bi bi-home"></i>Universitas Brawijaya</a></li>
-                                    </ul>
+                        <div>
+                            <!-- widget single item start -->
+                            <div class="organisasi__foto">
+                                <figure class="profile-picture">
+                                    <a href="#">
+                                        <img src="https://media-exp3.licdn.com/dms/image/C510BAQHzyDspmy9zYQ/company-logo_200_200/0/1579617593341?e=2159024400&v=beta&t=JxR_8Y7zhu4MQh5c2iUqn_atI61woD5dCetYYgataQg"
+                                            alt="profile picture">
+                                    </a>
+                                </figure>
+                            </div>
+                            <div class="card widget-item">
+                                <h4 class="widget-title">
+                                    KBMTI
+                                    <br>
+                                    ( Keluarga Besar Mahasiswa Teknologi Informasi )
+                                </h4>
+
+                                {{-- <h4 >Keluarga Besar Mahasiswa Teknologi Informasi</h4> --}}
+                                <div class="widget-body">
+                                    <div class="about-author">
+                                        <p>Akun Resmi Organisasi Himpunan Teknologi Informasi Universitas Brawijaya</p>
+                                        <ul class="author-into-list">
+                                            <li><a href="#"><i class="bi bi-home"></i>Universitas Brawijaya</a></li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
-
                         </div>
                         <!-- widget single item end -->
 
@@ -89,10 +91,7 @@
                                                 <h3 class="list-title"><a href="/profile">Azzamuddien</a></h3>
                                                 {{-- <p class="list-subtitle"><a href="#"></a></p> --}}
                                             </div>
-                                            {{-- <button class="like-button active">
-                                                <img class="heart" src="{{url('assets/images/icons/heart.png')}}" alt="">
-                                                <img class="heart-color" src="{{url('assets/images/icons/heart-color.png')}}" alt="">
-                                            </button> --}}
+
                                         </li>
                                     @endfor
                                 </ul>
@@ -166,7 +165,8 @@
                                 <div class="profile-thumb">
                                     <a href="#">
                                         <figure class="profile-thumb-middle">
-                                            <img src="{{url('assets/images/profile/profile-small-1.jpg')}}" alt="profile picture">
+                                            <img src="{{ url('assets/images/profile/profile-small-1.jpg') }}"
+                                                alt="profile picture">
                                         </figure>
                                     </a>
                                 </div>
@@ -535,8 +535,8 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" data-dismiss="modal">Batal</button>
-                        <button type="button" data-toggle="modal"
-                        data-target="#modalAlert" data-dismiss="modal">Simpan</button>
+                        <button type="button" data-toggle="modal" data-target="#modalAlert"
+                            data-dismiss="modal">Simpan</button>
                     </div>
                 </div>
             </div>
@@ -555,7 +555,8 @@
                                 <div class="profile-thumb">
                                     <a href="#">
                                         <figure class="profile-thumb-middle">
-                                            <img src="{{url('assets/images/profile/profile-small-1.jpg')}}" alt="profile picture">
+                                            <img src="{{ url('assets/images/profile/profile-small-1.jpg') }}"
+                                                alt="profile picture">
                                         </figure>
                                     </a>
                                 </div>
@@ -567,7 +568,7 @@
                                     </h6>
                                     <span class="post-time">20 min ago</span>
                                 </div>
-                                
+
                             </div>
                             <footer class="d-block d-lg-none">
                                 <div class="footer-area reveal-footer">
@@ -594,7 +595,7 @@
                                                                         <a href="#">
                                                                             <figure
                                                                                 class="profile-thumb-small profile-active">
-                                                                                <img src="{{url('assets/images/profile/profile-small-1.jpg')}}"
+                                                                                <img src="{{ url('assets/images/profile/profile-small-1.jpg') }}"
                                                                                     alt="profile picture">
                                                                             </figure>
                                                                         </a>
@@ -608,7 +609,7 @@
                                                                         <a href="javascript:void(0)">
                                                                             <figure
                                                                                 class="profile-thumb-small profile-active">
-                                                                                <img src="{{url('assets/images/profile/profile-small-8.jpg')}}"
+                                                                                <img src="{{ url('assets/images/profile/profile-small-8.jpg') }}"
                                                                                     alt="profile picture">
                                                                             </figure>
                                                                         </a>
@@ -622,7 +623,7 @@
                                                                         <a href="javascript:void(0)">
                                                                             <figure
                                                                                 class="profile-thumb-small profile-active">
-                                                                                <img src="{{url('assets/images/profile/profile-small-2.jpg')}}"
+                                                                                <img src="{{ url('assets/images/profile/profile-small-2.jpg') }}"
                                                                                     alt="profile picture">
                                                                             </figure>
                                                                         </a>
@@ -636,7 +637,7 @@
                                                                         <a href="javascript:void(0)">
                                                                             <figure
                                                                                 class="profile-thumb-small profile-active">
-                                                                                <img src="{{url('assets/images/profile/profile-small-3.jpg')}}"
+                                                                                <img src="{{ url('assets/images/profile/profile-small-3.jpg') }}"
                                                                                     alt="profile picture">
                                                                             </figure>
                                                                         </a>
@@ -650,7 +651,7 @@
                                                                         <a href="javascript:void(0)">
                                                                             <figure
                                                                                 class="profile-thumb-small profile-active">
-                                                                                <img src="{{url('assets/images/profile/profile-small-4.jpg')}}"
+                                                                                <img src="{{ url('assets/images/profile/profile-small-4.jpg') }}"
                                                                                     alt="profile picture">
                                                                             </figure>
                                                                         </a>
@@ -664,7 +665,7 @@
                                                                         <a href="javascript:void(0)">
                                                                             <figure
                                                                                 class="profile-thumb-small profile-active">
-                                                                                <img src="{{url('assets/images/profile/profile-small-5.jpg')}}"
+                                                                                <img src="{{ url('assets/images/profile/profile-small-5.jpg') }}"
                                                                                     alt="profile picture">
                                                                             </figure>
                                                                         </a>
@@ -678,7 +679,7 @@
                                                                         <a href="javascript:void(0)">
                                                                             <figure
                                                                                 class="profile-thumb-small profile-active">
-                                                                                <img src="{{url('assets/images/profile/profile-small-9.jpg')}}"
+                                                                                <img src="{{ url('assets/images/profile/profile-small-9.jpg') }}"
                                                                                     alt="profile picture">
                                                                             </figure>
                                                                         </a>
@@ -760,7 +761,7 @@
                                     <div class="profile-thumb">
                                         <a href="#">
                                             <figure class="profile-thumb-small">
-                                                <img src="{{url('assets/images/profile/profile-small-3.jpg')}}"
+                                                <img src="{{ url('assets/images/profile/profile-small-3.jpg') }}"
                                                     alt="profile picture">
                                             </figure>
                                         </a>
@@ -789,7 +790,7 @@
                                     <div class="profile-thumb">
                                         <a href="#">
                                             <figure class="profile-thumb-small">
-                                                <img src="{{url('assets/images/profile/profile-small-3.jpg')}}"
+                                                <img src="{{ url('assets/images/profile/profile-small-3.jpg') }}"
                                                     alt="profile picture">
                                             </figure>
                                         </a>
@@ -820,7 +821,8 @@
                                 <div class="profile-thumb">
                                     <a href="#">
                                         <figure class="profile-thumb-middle">
-                                            <img src="{{url('assets/images/profile/profile-small-37.jpg')}}" alt="profile picture">
+                                            <img src="{{ url('assets/images/profile/profile-small-37.jpg') }}"
+                                                alt="profile picture">
                                         </figure>
                                     </a>
                                 </div>
